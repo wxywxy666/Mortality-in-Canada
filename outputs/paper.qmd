@@ -1,0 +1,115 @@
+---
+title: "Evaluating the Effectiveness of Statistical Models in Predicting Mortality RatesAn Analysis of Negative Binomial Distribution Model in Canada"
+subtitle: "An Analysis of Negative Binomial Distribution Model"
+author: Xiyou Wang, Yetao Guo
+thanks: "Code and data are available at: https://github.com/wxywxy666/Mortality-in-Canada."
+date: "`r format(Sys.time(), '%d %B %Y')`"
+abstract: "NOT FINISHED YET!."
+output:
+  bookdown::pdf_document2:
+    toc-title: "Contents"
+toc: true
+toc-title: "Contents"
+number-sections: true
+format: pdf
+bibliography: references.bib
+---
+```{r setup, include=FALSE}
+# Load libraries
+library(ggplot2)
+library(dplyr)
+library(knitr)
+library(kableExtra)
+```
+
+\newpage
+# Introduction
+Understanding the field of public health mortality rate is important for policymakers, healthcare professionals, and society in general. The barometers of the mortality rate serve the efficiency of the well-being of society and the health system. This provides more knowledge on the challenges of general health, thus guiding resource allocation. A key case study emerges for Canada with the reflection of the morality rate landscape through the more overall societal trends and the dynamics of healthcare. In this research study, the morality complicated rate is solved within the population of Canada through the age-specific dissection of mortality rate and the lead on the causes of death illustration in the various cohorts demographically; thus, our main aim is to give more insights on the factors underlying shaping Canada's mortality trends.
+
+Due to COVID-19, The number of casualties in this research is the key critical revolution. At the same time, it acts as the subsequent analysis and the strategies for intervention. While the research findings are highlighted in the abstract, the introduction explores the comprehensive understanding of the research, providing an overview that is extensive while on an exhaustive component, ensuring there is refrainment. This research study sets a foundation for strategic address and decision-making based on evidence. Additionally, we seek a better understanding of the efforts guiding an intervention that is subsequent through the research study. To ensure the research findings efforts for the future have a structured analysis are presented in the section following an analysis that is more structured exploring the importance of Canada's results on the employed methodologies. Through the research structure description, the main aim is to offer the readers an informed road map for the multifaceted landscape navigation concerning the Canadian mortality rate.
+
+\newpage
+# Measurement/Methodology
+The dataset comes from Statistics Canada and focuses on mortality trends in Canada from 2000 to 2022, categorized by age, sex, and cause of death. This information is crucial for understanding public health trends and guiding policy decisions. Therefore, this dataset was selected due to its comprehensive coverage, high data quality and reliability.
+Data is updated annually, and the specific data used in this article is the latest available as of January 27, 2023. Raw data set presents data on the total number of deaths in Canada and ranks the leading causes of death, such as salmonella infections, shigellosis and amoebiasis, and tuberculosis, etc.
+
+Also included are maps of the age at time of death, the distribution of both genders, and partial places of residence. It is worth noting that The category "Age at time of death,  all ages" includes the number of deaths for children aged under one year old,The deaths for which age is not stated are  included in the "Age at the time of death, all ages" category but not distributed among age groups.
+All of the data is possessed and cleaned through R studio,a programming language for statistical computing and graphics.
+
+\newpage
+# Data：
+This section seeks to provide a comprehensive understanding of the dataset used in our analysis. The dataset captures the mortality rates across various demographics in Canada from 2000 to 2022. The data offer a wider perspective allowing trends to be analyzed over time, including periods of COVID-19 outbreaks.
+
+## raw data
+First, the original dataset file of "Leading causes of death", named "1310039401-eng", was downloaded from Statistics Canada(https://www.statcan.gc.ca). Five key variables are included. “Leading causes of death” tabulated is the underlying cause of death. This is defined as the disease or injury which initiated the train of events leading directly to death, or the circumstances of the accident or violence which produced the fatal injury. is selected from the conditions listed on the medical certificate of cause of death. "Characteristics" contains the "Rank of leading causes of death" which is based on the "Number of deaths". "Age at time of death" is attained at the last birthday preceding death. "Reference period" contains specific numbers, from 2000 to 2022. This article mainly studies the statistical model of death toll, so only the data of all ages and both sexes has been downloaded.
+
+## data cleaning
+```{r echo = FALSE}
+# Load cleaned data
+cleaned_data <- read.csv(here::here("inputs/cleaned_data"))
+cleaned_data <- cleaned_data[, -1]
+
+# Create the filtered and mutated table
+cleaned_data |>
+  filter(
+    year == 2022,
+    ranking <= 10
+  ) |>
+  mutate(total_deaths = format(total_deaths, big.mark = ",")) |>
+  kable(
+    col.names = c("Year", "Cause", "Deaths", "Ranking", "Years"),
+    align = c("l", "r", "r", "r", "r"),
+    digits = 0, 
+    booktabs = TRUE, 
+    linesep = ""
+  ) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+In order to understand the data more intuitively, data cleansing is necessary. A detailed description of each variable explains how these variables are critical for understanding public health trends and policy implications.
+
+table1 showcases the first ten rows of Leading Causes of Death in Canada for the Year 2022.To further understand the table,"cause" refers to the event that led to the deaths recorded in the dataset. Each cause is identified by its medical name."deaths" represents the total number of people who passed away due to each listed cause. Years represent..........It should be noted that since the COVID-19 outbreak began in 2020, the data for 'years' is limited to only three years
+
+\newpage
+# Result
+```{r echo = FALSE}
+# Select top five causes
+top_five <-
+  cleaned_data |>
+  filter(
+    year == 2022,
+    n == 23
+  )
+ca_cod_top_five <- top_five$cause[1:5]
+
+cleaned_data <-
+  cleaned_data |>
+  filter(cause %in% ca_cod_top_five)
+
+# Using ggplot to make figure
+cleaned_data |>
+  ggplot(aes(x = year, y = total_deaths, color = cause)) +
+  geom_line() +
+  theme_minimal() +
+  scale_color_brewer(palette = "Set1") +
+  labs(x = "Year", y = "Annual number of deaths in Canada") +
+  facet_wrap(vars(cause), scales = "free_y", dir = "v", ncol = 1) +
+  theme(legend.position = "none")
+```
+\newpage
+# Discussion：
+Plots of time-series changes in the number of deaths in Canada due to different factors are provided in the visualisation results of this study. The excellence of two forecasting models for mortality is analysed in comparison.
+
+## Finding
+The main focus of this document revolves around a comparison of the performance of two statistical models - the negative binomial distribution model and the Poisson distribution model - in predicting mortality in Canada. Through detailed data analysis, we find that the negative binomial distribution model outperforms the Poisson distribution model in terms of both the expected log-point-by-point predicted density difference (elpd_diff) and the k-fold cross-validated ELPD value (elpd_kfold). In addition, the negative binomial distribution model has a smaller standard deviation, suggesting that its predictions are more stable. This finding provides a new perspective that negative binomial distribution models may be more appropriate for describing and predicting mortality in Canada.
+
+## Economic Impact Insigths
+From the perspective of economic impact, accurate mortality prediction is an important reference value for a number of industries, including insurance, pension, and healthcare. The superiority of the negative binomial distribution model means that we can predict future mortality rates more accurately, thus helping these industries to make more rational economic decisions, such as setting insurance premium rates and planning medical resources. In addition, for governments, accurate mortality prediction can also help to formulate more effective social security policies and reduce financial pressure. In terms of insight, the reason why the negative binomial distribution model can achieve better prediction results may be related to its ability to better handle the discrete and over-discrete nature of the data. This suggests that we need to pay more attention to the characteristics of the data and choose more appropriate statistical models when dealing with similar problems.
+
+## Societal and Technological Influences
+In terms of social impact, accurate mortality forecasts help the public to better understand the trends in demographic and health conditions, and thus make more informed life decisions. For example, the public can adjust their health management and retirement planning based on the prediction results. In terms of technical implications, the findings in this paper provide new ideas for the application of statistical models in the field of mortality prediction. In the future, we can further explore and optimise the negative binomial distribution model, or find other more suitable models to improve the prediction accuracy and stability.
+
+## Weakness and Future Research Directions
+Despite the superiority of the negative binomial distribution model in predicting mortality in Alberta, there are still some shortcomings. For example, only two models were compared in this paper and other possible models were not considered; furthermore, the parameters of the models were not analysed in detail to identify the key factors affecting the prediction results. Future research directions can be developed in the following aspects: firstly, other possible statistical models can be further explored to find a more suitable model for predicting mortality in the Canada; secondly, an in-depth analysis of the model's parameters can be carried out to reveal the specific factors affecting the prediction effect; and lastly, attempts can be made to incorporate more factors into the model in order to improve the prediction accuracy and the scope of application. In summary, the findings of this paper are of great guiding significance for the modelling of mortality in the Canada, and also provide us with an opportunity to explore in depth the application of statistical models in the field of mortality prediction.
+
+\newpage
+# Conclusion

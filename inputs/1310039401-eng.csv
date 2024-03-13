@@ -1,0 +1,152 @@
+"Leading causes of death, total population, by age group 1 2 3 4 5 6 7 8 9",,,,,,,,,,,,,,,,,,,,,,,,
+Frequency:?Annual,,,,,,,,,,,,,,,,,,,,,,,,
+Table: 13-10-0394-01 (formerly CANSIM?102-0561),,,,,,,,,,,,,,,,,,,,,,,,
+Release date: 2023-11-27,,,,,,,,,,,,,,,,,,,,,,,,
+Geography: Canada,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,Age at time of death 10,"Age at time of death, all ages 12 13",,,,,,,,,,,,,,,,,,,,,,
+,Sex 11,Both sexes,,,,,,,,,,,,,,,,,,,,,,
+,"Geography, place of residence 14 15","Canada, place of residence",,,,,,,,,,,,,,,,,,,,,,
+Leading causes of death (ICD-10) 16 17 18,Characteristics,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022
+"Total, all causes of death  [A00-Y89]",,Number,,,,,,,,,,,,,,,,,,,,,,
+,Rank of leading causes of death 19,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+,Number of deaths,"218,062","219,538","223,603","226,169","226,584","230,132","228,079","235,217","238,617","238,418","240,075","243,511","246,596","252,338","258,821","264,333","267,213","278,298","285,704","285,301","308,412","311,640","334,081"
+Salmonella infections  [A01-A02],Rank of leading causes of death 19,41,43,41,40,41,41,42,42,41,41,41,41,41,40,40,40,42,40,40,41,41,39,40
+,Number of deaths,3,1,6,8,5,4,1,5,7,5,9,5,8,11,10,12,5,10,7,6,9,11,12
+"Shigellosis and amoebiasis  [A03, A06]",Rank of leading causes of death 19,47,43,45,45,42,45,45,45,45,43,46,46,46,45,47,45,46,46,43,46,45,45,46
+,Number of deaths,0,1,0,0,1,0,0,0,1,2,0,0,0,0,0,0,0,0,1,0,0,1,0
+Tuberculosis  [A16-A19],Rank of leading causes of death 19,31,30,30,31,32,31,31,32,31,35,34,33,33,33,33,32,33,33,34,34,34,34,33
+,Number of deaths,81,108,102,93,70,87,90,93,92,61,67,76,68,82,81,107,88,90,84,71,99,110,119
+Whooping cough  [A37],Rank of leading causes of death 19,42,45,45,44,45,44,45,45,45,45,45,43,43,43,43,45,46,43,43,43,45,47,46
+,Number of deaths,2,0,0,1,0,1,0,0,1,1,1,3,3,1,2,0,0,1,1,2,0,0,0
+"Scarlet fever and erysipelas  [A38, A46]",Rank of leading causes of death 19,44,45,45,43,45,45,42,45,43,47,46,46,46,45,44,43,44,43,46,46,45,47,44
+,Number of deaths,1,0,0,2,0,0,1,0,3,0,0,0,0,0,1,1,1,1,0,0,0,0,1
+Meningococcal infection  [A39],Rank of leading causes of death 19,37,38,37,38,38,39,38,39,39,39,40,40,38,41,41,41,40,41,42,40,42,41,42
+,Number of deaths,24,25,19,21,14,13,12,13,14,12,14,10,14,10,7,6,9,5,6,9,8,7,6
+Sepsis  [A40-A41],Rank of leading causes of death 19,15,15,14,14,14,14,12,12,12,12,12,12,12,13,13,13,13,13,13,13,14,14,14
+,Number of deaths,"1,357","1,392","1,489","1,552","1,608","1,690","1,852","1,972","2,135","2,211","2,257","2,465","2,611","2,289","2,359","2,487","1,909","2,044","2,195","2,139","2,246","2,064","2,183"
+Syphilis  [A50-A53],Rank of leading causes of death 19,42,41,42,42,42,43,41,41,42,42,42,42,42,42,42,42,41,41,40,42,43,43,43
+,Number of deaths,2,2,4,5,1,2,3,6,5,3,4,4,4,5,3,4,8,5,7,3,6,6,4
+Acute poliomyelitis  [A80],Rank of leading causes of death 19,47,45,45,45,45,45,45,45,48,47,46,46,46,45,47,45,46,46,46,46,45,47,46
+,Number of deaths,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Arthropod-borne viral encephalitis  [A83-A84, A85.2]",Rank of leading causes of death 19,47,45,45,45,45,45,45,45,48,47,46,44,46,45,47,45,43,46,46,44,45,44,46
+,Number of deaths,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,4,0,0,1,0,2,0
+Measles  [B05],Rank of leading causes of death 19,44,45,43,45,45,45,42,44,48,47,46,46,46,43,44,45,46,46,46,44,45,47,46
+,Number of deaths,1,0,1,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0
+Viral hepatitis  [B15-B19],Rank of leading causes of death 19,29,25,25,25,25,24,22,23,23,23,22,23,21,21,21,21,22,26,26,26,27,28,29
+,Number of deaths,138,320,379,394,409,398,457,455,446,451,486,465,525,540,556,528,446,371,357,311,262,271,210
+Human immunodeficiency virus [HIV] disease  [B20-B24],Rank of leading causes of death 19,21,24,24,23,23,23,23,24,25,26,26,27,27,27,27,28,28,28,31,32,32,32,32
+,Number of deaths,511,435,405,440,420,468,428,422,407,355,336,306,276,241,205,190,175,142,142,105,136,133,129
+Malaria  [B50-B54],Rank of leading causes of death 19,44,41,45,45,45,42,45,43,44,43,42,44,43,45,44,43,46,46,43,46,45,47,44
+,Number of deaths,1,2,0,0,0,3,0,2,2,2,4,1,3,0,1,1,0,0,1,0,0,0,1
+Malignant neoplasms  [C00-C97],Rank of leading causes of death 19,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+,Number of deaths,"62,672","63,774","65,103","65,990","66,947","67,343","67,807","69,595","70,558","71,125","71,882","72,736","74,361","75,112","77,059","77,054","79,084","80,023","79,726","80,372","81,242","82,822","82,412"
+"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour  [D00-D48]",Rank of leading causes of death 19,14,14,15,15,16,16,16,16,17,17,17,17,16,14,15,14,14,14,14,14,16,17,17
+,Number of deaths,"1,439","1,431","1,488","1,433","1,375","1,447","1,415","1,429","1,390","1,459","1,351","1,436","1,469","1,531","1,461","1,526","1,629","1,609","1,752","1,767","1,860","1,793","1,803"
+Anaemias  [D50-D64],Rank of leading causes of death 19,23,21,21,21,24,22,24,22,22,22,23,22,23,22,22,22,21,21,21,20,21,21,21
+,Number of deaths,446,487,515,532,417,494,395,499,512,524,480,541,477,505,459,471,474,541,523,543,627,652,654
+Diabetes mellitus  [E10-E14],Rank of leading causes of death 19,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,6,7,7,6,7,7,7
+,Number of deaths,"6,714","7,097","7,868","7,970","7,823","7,881","7,261","7,394","7,521","6,923","6,942","7,255","6,993","7,045","7,071","7,172","6,838","6,938","6,864","6,987","7,654","7,472","7,557"
+Nutritional deficiencies  [E40-E64],Rank of leading causes of death 19,26,27,27,28,28,28,29,28,28,28,28,28,28,28,28,27,27,27,27,27,28,27,26
+,Number of deaths,220,212,239,232,246,246,201,233,239,220,222,243,202,182,169,218,192,227,250,217,254,274,321
+"Meningitis  [G00, G03]",Rank of leading causes of death 19,34,33,33,34,35,35,34,36,34,33,33,34,36,35,35,35,34,34,33,33,35,35,35
+,Number of deaths,56,60,57,55,53,53,66,57,55,75,77,58,37,60,68,53,62,83,93,77,76,58,89
+Parkinson's disease  [G20-G21],Rank of leading causes of death 19,13,13,13,13,13,13,14,13,13,13,13,13,13,12,12,12,12,12,12,12,13,13,12
+,Number of deaths,"1,480","1,609","1,664","1,679","1,657","1,890","1,686","1,890","1,869","1,901","2,015","2,019","2,172","2,354","2,456","2,543","2,825","3,137","3,104","3,155","3,458","3,489","3,617"
+Alzheimer's disease  [G30],Rank of leading causes of death 19,7,7,7,7,8,8,7,7,7,7,7,7,7,8,8,8,7,8,8,8,9,8,9
+,Number of deaths,"5,007","5,477","5,515","5,504","5,536","5,762","5,675","5,903","6,573","6,281","6,452","6,377","6,293","6,345","6,410","6,587","6,521","6,683","6,439","6,181","5,788","5,471","5,413"
+"Diseases of heart  [I00-I09, I11, I13, I20-I51]",Rank of leading causes of death 19,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+,Number of deaths,"55,070","53,717","53,355","52,974","52,000","51,574","49,893","50,499","50,722","49,271","48,757","47,911","48,681","49,891","51,014","51,534","51,396","53,494","54,203","53,364","54,430","55,271","57,357"
+"Essential hypertension and hypertensive renal disease  [I10, I12, I15]",Rank of leading causes of death 19,17,17,17,17,17,15,17,17,16,15,15,15,15,15,14,15,15,17,17,15,15,15,16
+,Number of deaths,"1,034","1,032","1,187","1,259","1,356","1,456","1,284","1,363","1,553","1,584","1,651","1,613","1,602","1,524","1,499","1,502","1,512","1,441","1,451","1,588","1,964","1,983","2,074"
+Cerebrovascular diseases  [I60-I69],Rank of leading causes of death 19,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,5,5,5
+,Number of deaths,"15,576","15,452","15,453","15,283","14,626","14,054","13,805","13,981","13,870","14,105","13,706","13,332","13,174","13,400","13,573","13,795","13,551","13,934","13,547","13,717","13,761","13,491","13,915"
+Atherosclerosis  [I70],Rank of leading causes of death 19,16,16,16,16,15,18,19,20,20,20,20,20,20,20,20,20,20,20,20,21,24,24,25
+,Number of deaths,"1,313","1,208","1,244","1,335","1,454","1,306",960,842,850,816,764,766,671,708,671,566,570,612,526,531,538,468,471
+Aortic aneurysm and dissection  [I71],Rank of leading causes of death 19,12,12,12,12,12,12,13,14,14,16,16,16,17,16,16,16,17,16,16,16,18,18,18
+,Number of deaths,"2,028","1,954","1,919","1,870","1,861","1,902","1,791","1,787","1,668","1,564","1,533","1,487","1,386","1,482","1,454","1,483","1,400","1,518","1,601","1,584","1,537","1,544","1,509"
+Influenza and pneumonia  [J09-J18],Rank of leading causes of death 19,8,8,8,8,7,7,8,8,8,8,8,8,8,7,7,6,8,6,6,7,8,10,8
+,Number of deaths,"4,966","4,776","4,725","4,957","5,729","5,845","5,152","5,452","5,386","5,826","5,106","5,787","5,694","6,551","6,597","7,630","6,235","7,445","8,594","6,945","6,037","4,115","5,985"
+Acute bronchitis and bronchiolitis  [J20-J21],Rank of leading causes of death 19,32,34,32,36,34,33,36,34,35,36,35,35,34,34,34,34,35,36,35,37,40,41,39
+,Number of deaths,73,45,62,40,62,62,50,71,54,57,53,47,56,76,74,69,45,50,63,22,20,7,20
+Chronic lower respiratory diseases  [J40-J47],Rank of leading causes of death 19,4,4,4,4,4,4,4,4,4,4,5,4,5,4,4,4,5,5,5,5,6,6,6
+,Number of deaths,"9,813","9,773","9,877","10,162","10,041","10,515","9,786","10,659","10,923","10,859","10,757","11,243","11,130","11,976","11,876","12,573","12,293","12,890","13,070","12,902","11,844","11,018","12,462"
+"Pneumoconioses and chemical effects  [J60-J66, J68]",Rank of leading causes of death 19,33,32,34,32,31,32,32,33,32,31,32,32,32,30,32,33,32,32,32,31,33,33,34
+,Number of deaths,60,61,53,71,78,74,80,85,90,84,90,103,108,119,108,105,105,102,114,110,119,127,109
+Pneumonitis due to solids and liquids  [J69],Rank of leading causes of death 19,20,20,19,18,18,17,15,15,15,14,14,14,14,17,17,17,16,15,15,17,17,16,15
+,Number of deaths,711,797,909,"1,051","1,209","1,366","1,465","1,614","1,629","1,710","1,959","2,009","2,013","1,204","1,267","1,271","1,416","1,529","1,616","1,573","1,686","1,912","2,104"
+Peptic ulcer  [K25-K28],Rank of leading causes of death 19,24,22,23,24,22,25,25,25,24,24,24,24,25,23,25,25,24,23,24,23,23,23,23
+,Number of deaths,439,469,446,413,436,390,380,410,433,420,404,395,416,471,409,401,410,460,443,490,555,575,561
+Diseases of appendix  [K35-K38],Rank of leading causes of death 19,36,36,36,35,36,36,35,35,36,34,36,36,35,36,36,36,36,35,36,35,36,36,36
+,Number of deaths,40,40,38,42,52,38,63,60,42,63,49,38,54,51,52,41,43,55,40,47,48,57,64
+Hernia  [K40-K46],Rank of leading causes of death 19,27,28,29,27,27,27,27,27,27,27,27,26,26,26,26,26,26,25,25,25,26,25,24
+,Number of deaths,205,204,221,240,268,273,228,266,294,312,318,345,339,360,363,374,381,385,423,446,429,464,498
+"Chronic liver disease and cirrhosis  [K70, K73-K74]",Rank of leading causes of death 19,11,11,11,11,11,11,11,11,11,11,11,11,11,11,10,10,10,10,11,11,10,9,10
+,Number of deaths,"2,206","2,269","2,351","2,352","2,269","2,348","2,413","2,651","2,748","2,683","2,668","2,855","2,882","2,961","3,126","3,176","3,385","3,463","3,573","3,708","4,199","4,617","4,530"
+Cholelithiasis and other disorders of gallbladder  [K80-K82],Rank of leading causes of death 19,25,26,26,26,26,26,26,26,26,25,25,25,24,25,24,24,23,24,23,24,25,22,22
+,Number of deaths,320,298,305,316,337,372,342,388,363,411,380,385,423,445,423,449,444,415,457,488,511,629,565
+"Nephritis, nephrotic syndrome and nephrosis  [N00-N07, N17-N19, N25-N27]",Rank of leading causes of death 19,10,10,10,10,10,10,9,9,9,10,10,10,10,10,11,11,11,11,10,10,12,11,11
+,Number of deaths,"3,136","3,221","3,437","3,503","3,541","3,643","3,686","3,803","3,846","3,609","3,868","3,297","3,327","2,978","3,098","3,129","3,054","3,275","3,613","3,770","4,065","3,978","4,234"
+"Infections of kidney  [N10-N12, N13.6, N15.1]",Rank of leading causes of death 19,30,31,31,30,30,30,30,30,30,30,30,30,30,32,30,31,31,29,29,28,29,30,30
+,Number of deaths,117,90,98,97,123,126,129,120,117,106,117,120,120,110,124,121,113,141,163,168,188,203,207
+Hyperplasia of prostate  [N40],Rank of leading causes of death 19,35,34,35,33,32,34,33,31,33,32,31,31,31,31,31,29,30,30,30,30,29,31,31
+,Number of deaths,51,45,50,58,70,60,74,99,88,77,94,117,112,111,111,148,134,132,150,123,188,172,203
+Inflammatory diseases of female pelvic organs  [N70-N76],Rank of leading causes of death 19,38,39,39,39,40,40,40,38,40,39,39,39,39,37,38,38,38,38,39,38,38,37,37
+,Number of deaths,13,10,10,13,11,11,8,16,11,12,16,15,13,24,16,20,15,16,17,20,26,41,34
+"Pregnancy, childbirth and the puerperium  [O00-O99]",Rank of leading causes of death 19,39,37,38,37,37,37,37,37,37,37,37,38,37,38,37,37,37,37,37,36,37,38,38
+,Number of deaths,11,26,15,23,20,30,28,24,34,29,24,18,22,23,23,27,24,27,34,32,34,30,30
+Certain conditions originating in the perinatal period  [P00-P96],Rank of leading causes of death 19,19,18,18,19,19,19,18,18,18,18,18,18,18,18,18,18,19,18,19,18,20,19,20
+,Number of deaths,898,936,927,991,"1,024","1,044","1,013","1,122","1,107","1,076","1,130","1,093","1,080","1,125","1,100","1,067","1,031","1,048","1,033","1,009",939,964,959
+"Congenital malformations, deformations and chromosomal abnormalities  [Q00-Q99]",Rank of leading causes of death 19,18,19,20,20,20,20,20,19,19,19,19,19,19,19,19,19,18,19,18,18,19,20,19
+,Number of deaths,920,893,890,912,865,917,865,866,893,896,901,903,990,995,"1,008",995,"1,044","1,010","1,084","1,009","1,060",930,"1,037"
+"COVID-19  [U07.1, U07.2, U10.9]",Rank of leading causes of death 19,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,4,4,3
+,Number of deaths,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,"15,890","14,466","19,716"
+"Accidents (unintentional injuries)  [V01-X59, Y85-Y86]",Rank of leading causes of death 19,5,5,5,5,5,5,5,5,5,5,4,5,4,5,5,5,4,3,3,3,3,3,4
+,Number of deaths,"8,589","8,521","9,050","9,047","8,986","9,506","9,640","9,951","10,234","10,250","10,866","10,961","11,290","11,452","11,724","11,833","12,524","15,034","15,855","15,527","16,818","19,257","18,365"
+"Intentional self-harm (suicide)  [X60-X84, Y87.0]",Rank of leading causes of death 19,9,9,9,9,9,9,10,10,10,9,9,9,9,9,9,9,9,9,9,9,11,12,13
+,Number of deaths,"3,606","3,692","3,650","3,765","3,613","3,743","3,512","3,611","3,705","3,890","3,951","3,896","3,926","4,054","4,254","4,405","3,978","4,462","4,576","4,581","4,152","3,769","3,593"
+"Assault (homicide)  [X85-Y09, Y87.1]",Rank of leading causes of death 19,22,23,22,22,21,21,21,21,21,21,21,21,22,24,23,23,25,22,22,21,22,26,27
+,Number of deaths,467,463,462,447,515,576,487,515,575,574,524,545,493,446,439,456,396,537,517,531,559,431,306
+"Legal intervention  [Y35, Y89.0]",Rank of leading causes of death 19,39,40,40,41,39,38,39,39,38,38,38,37,39,39,39,39,39,38,38,39,39,39,41
+,Number of deaths,11,7,7,6,13,16,9,13,16,19,18,23,13,16,15,13,12,16,18,14,22,11,9
+"Operations of war and their sequelae  [Y36, Y89.1]",Rank of leading causes of death 19,47,45,43,45,42,45,45,45,45,45,44,46,45,45,47,45,44,43,46,46,44,45,46
+,Number of deaths,0,0,1,0,1,0,0,0,1,1,2,0,1,0,0,0,1,1,0,0,1,1,0
+"Complications of medical and surgical care  [Y40-Y84, Y88]",Rank of leading causes of death 19,28,29,28,29,29,29,28,29,29,29,29,29,29,29,29,30,29,31,28,29,31,29,28
+,Number of deaths,169,159,225,193,176,205,212,192,218,213,159,175,147,134,147,144,168,128,168,162,169,205,279
+Other causes of death 20,Rank of leading causes of death 19,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+,Number of deaths,"26,065","26,947","27,782","28,838","29,266","30,898","33,373","34,788","35,317","36,290","37,611","40,031","40,917","43,337","45,877","48,046","51,263","52,768","57,203","58,893","62,898","66,268","78,354"
+,,,,,,,,,,,,,,,,,,,,,,,,
+Symbol legend:,,,,,,,,,,,,,,,,,,,,,,,,
+.., not available for a specific reference period,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+Footnotes:,,,,,,,,,,,,,,,,,,,,,,,,
+1,"Sources: Statistics Canada, Canadian Vital Statistics - Death database (CVSD) and population estimates",,,,,,,,,,,,,,,,,,,,,,,
+2,Death refers to the permanent disappearance of all evidence of life at any time after a live birth has taken place. Stillbirths are excluded.,,,,,,,,,,,,,,,,,,,,,,,
+3,"The following standard symbols are used in this Statistics Canada table: (..) for figures not available for a specific reference period, (...) for figures not applicable and (x) for figures suppressed to meet the confidentiality requirements of the Statistics Act.",,,,,,,,,,,,,,,,,,,,,,,
+4,"The totals (all causes of death) by age group and/ or sex presented in this table may not reflect those given in tables 13-10-0707-01 to 13-10-0716-01, 13-10-0368-01 due to the correction of age or sex information that was inconsistent with the underlying cause of death.",,,,,,,,,,,,,,,,,,,,,,,
+5,"During the production of each year's birth/death/stillbirth statistics, data from previous years may be revised to reflect any updates or changes that have been received from the provincial and territorial vital statistics registrars.",,,,,,,,,,,,,,,,,,,,,,,
+6,"Starting with the 2013 reference year, information regarding new and terminated cause of death codes, as well as any changes to the cause of death descriptions, are available upon request; please contact Statistics Canada's Statistical Information Service (toll-free 1-800-263-1136; 514-283-8300; STATCAN.infostats-infostats.STATCAN@Canada.ca).",,,,,,,,,,,,,,,,,,,,,,,
+7,"Starting with the 2013 reference year, a new automated coding system was used to select the underlying cause of death. In 2017, an updated version of this coding system was implemented. For more information or to obtain documentation regarding the impact of these changes, please contact Statistics Canada's Statistical Information Service (toll-free 1-800-263-1136; 514-283-8300; STATCAN.infostats-infostats.STATCAN@Canada.ca).",,,,,,,,,,,,,,,,,,,,,,,
+8,"Due to improvements in methodology and timeliness, the duration of data collection has been shortened compared to previous years. As a result, there may have been fewer deaths captured by the time of the release. The 2019, 2020, 2021 and 2022 data are considered preliminary.",,,,,,,,,,,,,,,,,,,,,,,
+9,"2017, 2018, 2019, 2020, 2021 and 2022 data for Yukon are not available.",,,,,,,,,,,,,,,,,,,,,,,
+10,Age attained at the last birthday preceding death.,,,,,,,,,,,,,,,,,,,,,,,
+11,"For data year 2000 to 2009, missing data on sex of the deceased were imputed based on death registration number. Starting with 2010 data year, missing data on sex of the deceased were imputed based on the cause of death information and a logistic regression.",,,,,,,,,,,,,,,,,,,,,,,
+12,The category Age at time of death, all ages" includes the number of deaths for children aged under one year old.",,,,,,,,,,,,,,,,,,,,,,
+13,The deaths for which age is not stated are included in the Age at the time of death, all ages" category but not distributed among age groups.",,,,,,,,,,,,,,,,,,,,,,
+14,The geographic distribution of deaths in this table is based on the deceased's usual place of residence.,,,,,,,,,,,,,,,,,,,,,,,
+15,Counts in this table exclude deaths of non-residents of Canada.,,,,,,,,,,,,,,,,,,,,,,,
+16,"The cause of death tabulated is the underlying cause of death. This is defined as (a) the disease or injury which initiated the train of events leading directly to death, or (b) the circumstances of the accident or violence which produced the fatal injury. The underlying cause is selected from the conditions listed on the medical certificate of cause of death.",,,,,,,,,,,,,,,,,,,,,,,
+17,"World Health Organization (WHO), International Statistical Classification of Diseases and Related Health Problems, 10th Revision (ICD-10).",,,,,,,,,,,,,,,,,,,,,,,
+18,The list for ranking leading causes of death that is used in this table is based on the list that was developed and that is been used by the National Center for Health Statistics of the United States in their annual report on leading causes of death.,,,,,,,,,,,,,,,,,,,,,,,
+20,Other causes of death" is a residual category, which includes all causes of death that are not part of the 50 leading causes of death list.",,,,,,,,,,,,,,,,,,,,,,
+19,The ranking of the leading causes of death is based on the number of deaths.,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+"How to cite: Statistics Canada. Table 13-10-0394-01? Leading causes of death, total population, by age group",,,,,,,,,,,,,,,,,,,,,,,,
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310039401,,,,,,,,,,,,,,,,,,,,,,,,

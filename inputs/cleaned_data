@@ -1,0 +1,1032 @@
+"","year","cause","total_deaths","ranking","n"
+"1",2000,"Malignant neoplasms",62672,1,23
+"2",2000,"Diseases of heart",55070,2,23
+"3",2000,"Cerebrovascular diseases",15576,3,23
+"4",2000,"Chronic lower respiratory diseases",9813,4,23
+"5",2000,"Accidents (unintentional injuries)",8589,5,23
+"6",2000,"Diabetes mellitus",6714,6,23
+"7",2000,"Alzheimer's disease",5007,7,23
+"8",2000,"Influenza and pneumonia",4966,8,23
+"9",2000,"Intentional self-harm (suicide)",3606,9,23
+"10",2000,"Nephritis, nephrotic syndrome and nephrosis",3136,10,23
+"11",2000,"Chronic liver disease and cirrhosis",2206,11,23
+"12",2000,"Aortic aneurysm and dissection",2028,12,23
+"13",2000,"Parkinson's disease",1480,13,23
+"14",2000,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1439,14,23
+"15",2000,"Sepsis",1357,15,23
+"16",2000,"Atherosclerosis",1313,16,23
+"17",2000,"Essential hypertension and hypertensive renal disease",1034,17,23
+"18",2000,"Congenital malformations, deformations and chromosomal abnormalities",920,18,23
+"19",2000,"Certain conditions originating in the perinatal period",898,19,23
+"20",2000,"Pneumonitis due to solids and liquids",711,20,23
+"21",2000,"Human immunodeficiency virus disease",511,21,23
+"22",2000,"Assault (homicide)",467,22,23
+"23",2000,"Anaemias",446,23,23
+"24",2000,"Peptic ulcer",439,24,23
+"25",2000,"Cholelithiasis and other disorders of gallbladder",320,25,23
+"26",2000,"Nutritional deficiencies",220,26,23
+"27",2000,"Hernia",205,27,23
+"28",2000,"Complications of medical and surgical care",169,28,23
+"29",2000,"Viral hepatitis",138,29,23
+"30",2000,"Infections of kidney",117,30,23
+"31",2000,"Tuberculosis",81,31,23
+"32",2000,"Acute bronchitis and bronchiolitis",73,32,23
+"33",2000,"Pneumoconioses and chemical effects",60,33,23
+"34",2000,"Meningitis",56,34,23
+"35",2000,"Hyperplasia of prostate",51,35,23
+"36",2000,"Diseases of appendix",40,36,23
+"37",2000,"Meningococcal infection",24,37,23
+"38",2000,"Inflammatory diseases of female pelvic organs",13,38,23
+"39",2000,"Pregnancy, childbirth and the puerperium",11,39,23
+"40",2000,"Legal intervention",11,40,23
+"41",2000,"Salmonella infections",3,41,23
+"42",2000,"Whooping cough",2,42,13
+"43",2000,"Syphilis",2,43,23
+"44",2000,"Scarlet fever and erysipelas",1,44,9
+"45",2000,"Measles",1,45,7
+"46",2000,"Malaria",1,46,13
+"47",2001,"Malignant neoplasms",63774,1,23
+"48",2001,"Diseases of heart",53717,2,23
+"49",2001,"Cerebrovascular diseases",15452,3,23
+"50",2001,"Chronic lower respiratory diseases",9773,4,23
+"51",2001,"Accidents (unintentional injuries)",8521,5,23
+"52",2001,"Diabetes mellitus",7097,6,23
+"53",2001,"Alzheimer's disease",5477,7,23
+"54",2001,"Influenza and pneumonia",4776,8,23
+"55",2001,"Intentional self-harm (suicide)",3692,9,23
+"56",2001,"Nephritis, nephrotic syndrome and nephrosis",3221,10,23
+"57",2001,"Chronic liver disease and cirrhosis",2269,11,23
+"58",2001,"Aortic aneurysm and dissection",1954,12,23
+"59",2001,"Parkinson's disease",1609,13,23
+"60",2001,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1431,14,23
+"61",2001,"Sepsis",1392,15,23
+"62",2001,"Atherosclerosis",1208,16,23
+"63",2001,"Essential hypertension and hypertensive renal disease",1032,17,23
+"64",2001,"Certain conditions originating in the perinatal period",936,18,23
+"65",2001,"Congenital malformations, deformations and chromosomal abnormalities",893,19,23
+"66",2001,"Pneumonitis due to solids and liquids",797,20,23
+"67",2001,"Anaemias",487,21,23
+"68",2001,"Peptic ulcer",469,22,23
+"69",2001,"Assault (homicide)",463,23,23
+"70",2001,"Human immunodeficiency virus disease",435,24,23
+"71",2001,"Viral hepatitis",320,25,23
+"72",2001,"Cholelithiasis and other disorders of gallbladder",298,26,23
+"73",2001,"Nutritional deficiencies",212,27,23
+"74",2001,"Hernia",204,28,23
+"75",2001,"Complications of medical and surgical care",159,29,23
+"76",2001,"Tuberculosis",108,30,23
+"77",2001,"Infections of kidney",90,31,23
+"78",2001,"Pneumoconioses and chemical effects",61,32,23
+"79",2001,"Meningitis",60,33,23
+"80",2001,"Acute bronchitis and bronchiolitis",45,34,23
+"81",2001,"Hyperplasia of prostate",45,35,23
+"82",2001,"Diseases of appendix",40,36,23
+"83",2001,"Pregnancy, childbirth and the puerperium",26,37,23
+"84",2001,"Meningococcal infection",25,38,23
+"85",2001,"Inflammatory diseases of female pelvic organs",10,39,23
+"86",2001,"Legal intervention",7,40,23
+"87",2001,"Syphilis",2,41,23
+"88",2001,"Malaria",2,42,13
+"89",2001,"Salmonella infections",1,43,23
+"90",2001,"Shigellosis and amoebiasis",1,44,6
+"91",2002,"Malignant neoplasms",65103,1,23
+"92",2002,"Diseases of heart",53355,2,23
+"93",2002,"Cerebrovascular diseases",15453,3,23
+"94",2002,"Chronic lower respiratory diseases",9877,4,23
+"95",2002,"Accidents (unintentional injuries)",9050,5,23
+"96",2002,"Diabetes mellitus",7868,6,23
+"97",2002,"Alzheimer's disease",5515,7,23
+"98",2002,"Influenza and pneumonia",4725,8,23
+"99",2002,"Intentional self-harm (suicide)",3650,9,23
+"100",2002,"Nephritis, nephrotic syndrome and nephrosis",3437,10,23
+"101",2002,"Chronic liver disease and cirrhosis",2351,11,23
+"102",2002,"Aortic aneurysm and dissection",1919,12,23
+"103",2002,"Parkinson's disease",1664,13,23
+"104",2002,"Sepsis",1489,14,23
+"105",2002,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1488,15,23
+"106",2002,"Atherosclerosis",1244,16,23
+"107",2002,"Essential hypertension and hypertensive renal disease",1187,17,23
+"108",2002,"Certain conditions originating in the perinatal period",927,18,23
+"109",2002,"Pneumonitis due to solids and liquids",909,19,23
+"110",2002,"Congenital malformations, deformations and chromosomal abnormalities",890,20,23
+"111",2002,"Anaemias",515,21,23
+"112",2002,"Assault (homicide)",462,22,23
+"113",2002,"Peptic ulcer",446,23,23
+"114",2002,"Human immunodeficiency virus disease",405,24,23
+"115",2002,"Viral hepatitis",379,25,23
+"116",2002,"Cholelithiasis and other disorders of gallbladder",305,26,23
+"117",2002,"Nutritional deficiencies",239,27,23
+"118",2002,"Complications of medical and surgical care",225,28,23
+"119",2002,"Hernia",221,29,23
+"120",2002,"Tuberculosis",102,30,23
+"121",2002,"Infections of kidney",98,31,23
+"122",2002,"Acute bronchitis and bronchiolitis",62,32,23
+"123",2002,"Meningitis",57,33,23
+"124",2002,"Pneumoconioses and chemical effects",53,34,23
+"125",2002,"Hyperplasia of prostate",50,35,23
+"126",2002,"Diseases of appendix",38,36,23
+"127",2002,"Meningococcal infection",19,37,23
+"128",2002,"Pregnancy, childbirth and the puerperium",15,38,23
+"129",2002,"Inflammatory diseases of female pelvic organs",10,39,23
+"130",2002,"Legal intervention",7,40,23
+"131",2002,"Salmonella infections",6,41,23
+"132",2002,"Syphilis",4,42,23
+"133",2002,"Measles",1,43,7
+"134",2002,"Operations of war and their sequelae",1,44,10
+"135",2003,"Malignant neoplasms",65990,1,23
+"136",2003,"Diseases of heart",52974,2,23
+"137",2003,"Cerebrovascular diseases",15283,3,23
+"138",2003,"Chronic lower respiratory diseases",10162,4,23
+"139",2003,"Accidents (unintentional injuries)",9047,5,23
+"140",2003,"Diabetes mellitus",7970,6,23
+"141",2003,"Alzheimer's disease",5504,7,23
+"142",2003,"Influenza and pneumonia",4957,8,23
+"143",2003,"Intentional self-harm (suicide)",3765,9,23
+"144",2003,"Nephritis, nephrotic syndrome and nephrosis",3503,10,23
+"145",2003,"Chronic liver disease and cirrhosis",2352,11,23
+"146",2003,"Aortic aneurysm and dissection",1870,12,23
+"147",2003,"Parkinson's disease",1679,13,23
+"148",2003,"Sepsis",1552,14,23
+"149",2003,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1433,15,23
+"150",2003,"Atherosclerosis",1335,16,23
+"151",2003,"Essential hypertension and hypertensive renal disease",1259,17,23
+"152",2003,"Pneumonitis due to solids and liquids",1051,18,23
+"153",2003,"Certain conditions originating in the perinatal period",991,19,23
+"154",2003,"Congenital malformations, deformations and chromosomal abnormalities",912,20,23
+"155",2003,"Anaemias",532,21,23
+"156",2003,"Assault (homicide)",447,22,23
+"157",2003,"Human immunodeficiency virus disease",440,23,23
+"158",2003,"Peptic ulcer",413,24,23
+"159",2003,"Viral hepatitis",394,25,23
+"160",2003,"Cholelithiasis and other disorders of gallbladder",316,26,23
+"161",2003,"Hernia",240,27,23
+"162",2003,"Nutritional deficiencies",232,28,23
+"163",2003,"Complications of medical and surgical care",193,29,23
+"164",2003,"Infections of kidney",97,30,23
+"165",2003,"Tuberculosis",93,31,23
+"166",2003,"Pneumoconioses and chemical effects",71,32,23
+"167",2003,"Hyperplasia of prostate",58,33,23
+"168",2003,"Meningitis",55,34,23
+"169",2003,"Diseases of appendix",42,35,23
+"170",2003,"Acute bronchitis and bronchiolitis",40,36,23
+"171",2003,"Pregnancy, childbirth and the puerperium",23,37,23
+"172",2003,"Meningococcal infection",21,38,23
+"173",2003,"Inflammatory diseases of female pelvic organs",13,39,23
+"174",2003,"Salmonella infections",8,40,23
+"175",2003,"Legal intervention",6,41,23
+"176",2003,"Syphilis",5,42,23
+"177",2003,"Scarlet fever and erysipelas",2,43,9
+"178",2003,"Whooping cough",1,44,13
+"179",2004,"Malignant neoplasms",66947,1,23
+"180",2004,"Diseases of heart",52000,2,23
+"181",2004,"Cerebrovascular diseases",14626,3,23
+"182",2004,"Chronic lower respiratory diseases",10041,4,23
+"183",2004,"Accidents (unintentional injuries)",8986,5,23
+"184",2004,"Diabetes mellitus",7823,6,23
+"185",2004,"Influenza and pneumonia",5729,7,23
+"186",2004,"Alzheimer's disease",5536,8,23
+"187",2004,"Intentional self-harm (suicide)",3613,9,23
+"188",2004,"Nephritis, nephrotic syndrome and nephrosis",3541,10,23
+"189",2004,"Chronic liver disease and cirrhosis",2269,11,23
+"190",2004,"Aortic aneurysm and dissection",1861,12,23
+"191",2004,"Parkinson's disease",1657,13,23
+"192",2004,"Sepsis",1608,14,23
+"193",2004,"Atherosclerosis",1454,15,23
+"194",2004,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1375,16,23
+"195",2004,"Essential hypertension and hypertensive renal disease",1356,17,23
+"196",2004,"Pneumonitis due to solids and liquids",1209,18,23
+"197",2004,"Certain conditions originating in the perinatal period",1024,19,23
+"198",2004,"Congenital malformations, deformations and chromosomal abnormalities",865,20,23
+"199",2004,"Assault (homicide)",515,21,23
+"200",2004,"Peptic ulcer",436,22,23
+"201",2004,"Human immunodeficiency virus disease",420,23,23
+"202",2004,"Anaemias",417,24,23
+"203",2004,"Viral hepatitis",409,25,23
+"204",2004,"Cholelithiasis and other disorders of gallbladder",337,26,23
+"205",2004,"Hernia",268,27,23
+"206",2004,"Nutritional deficiencies",246,28,23
+"207",2004,"Complications of medical and surgical care",176,29,23
+"208",2004,"Infections of kidney",123,30,23
+"209",2004,"Pneumoconioses and chemical effects",78,31,23
+"210",2004,"Tuberculosis",70,32,23
+"211",2004,"Hyperplasia of prostate",70,33,23
+"212",2004,"Acute bronchitis and bronchiolitis",62,34,23
+"213",2004,"Meningitis",53,35,23
+"214",2004,"Diseases of appendix",52,36,23
+"215",2004,"Pregnancy, childbirth and the puerperium",20,37,23
+"216",2004,"Meningococcal infection",14,38,23
+"217",2004,"Legal intervention",13,39,23
+"218",2004,"Inflammatory diseases of female pelvic organs",11,40,23
+"219",2004,"Salmonella infections",5,41,23
+"220",2004,"Shigellosis and amoebiasis",1,42,6
+"221",2004,"Syphilis",1,43,23
+"222",2004,"Operations of war and their sequelae",1,44,10
+"223",2005,"Malignant neoplasms",67343,1,23
+"224",2005,"Diseases of heart",51574,2,23
+"225",2005,"Cerebrovascular diseases",14054,3,23
+"226",2005,"Chronic lower respiratory diseases",10515,4,23
+"227",2005,"Accidents (unintentional injuries)",9506,5,23
+"228",2005,"Diabetes mellitus",7881,6,23
+"229",2005,"Influenza and pneumonia",5845,7,23
+"230",2005,"Alzheimer's disease",5762,8,23
+"231",2005,"Intentional self-harm (suicide)",3743,9,23
+"232",2005,"Nephritis, nephrotic syndrome and nephrosis",3643,10,23
+"233",2005,"Chronic liver disease and cirrhosis",2348,11,23
+"234",2005,"Aortic aneurysm and dissection",1902,12,23
+"235",2005,"Parkinson's disease",1890,13,23
+"236",2005,"Sepsis",1690,14,23
+"237",2005,"Essential hypertension and hypertensive renal disease",1456,15,23
+"238",2005,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1447,16,23
+"239",2005,"Pneumonitis due to solids and liquids",1366,17,23
+"240",2005,"Atherosclerosis",1306,18,23
+"241",2005,"Certain conditions originating in the perinatal period",1044,19,23
+"242",2005,"Congenital malformations, deformations and chromosomal abnormalities",917,20,23
+"243",2005,"Assault (homicide)",576,21,23
+"244",2005,"Anaemias",494,22,23
+"245",2005,"Human immunodeficiency virus disease",468,23,23
+"246",2005,"Viral hepatitis",398,24,23
+"247",2005,"Peptic ulcer",390,25,23
+"248",2005,"Cholelithiasis and other disorders of gallbladder",372,26,23
+"249",2005,"Hernia",273,27,23
+"250",2005,"Nutritional deficiencies",246,28,23
+"251",2005,"Complications of medical and surgical care",205,29,23
+"252",2005,"Infections of kidney",126,30,23
+"253",2005,"Tuberculosis",87,31,23
+"254",2005,"Pneumoconioses and chemical effects",74,32,23
+"255",2005,"Acute bronchitis and bronchiolitis",62,33,23
+"256",2005,"Hyperplasia of prostate",60,34,23
+"257",2005,"Meningitis",53,35,23
+"258",2005,"Diseases of appendix",38,36,23
+"259",2005,"Pregnancy, childbirth and the puerperium",30,37,23
+"260",2005,"Legal intervention",16,38,23
+"261",2005,"Meningococcal infection",13,39,23
+"262",2005,"Inflammatory diseases of female pelvic organs",11,40,23
+"263",2005,"Salmonella infections",4,41,23
+"264",2005,"Malaria",3,42,13
+"265",2005,"Syphilis",2,43,23
+"266",2005,"Whooping cough",1,44,13
+"267",2006,"Malignant neoplasms",67807,1,23
+"268",2006,"Diseases of heart",49893,2,23
+"269",2006,"Cerebrovascular diseases",13805,3,23
+"270",2006,"Chronic lower respiratory diseases",9786,4,23
+"271",2006,"Accidents (unintentional injuries)",9640,5,23
+"272",2006,"Diabetes mellitus",7261,6,23
+"273",2006,"Alzheimer's disease",5675,7,23
+"274",2006,"Influenza and pneumonia",5152,8,23
+"275",2006,"Nephritis, nephrotic syndrome and nephrosis",3686,9,23
+"276",2006,"Intentional self-harm (suicide)",3512,10,23
+"277",2006,"Chronic liver disease and cirrhosis",2413,11,23
+"278",2006,"Sepsis",1852,12,23
+"279",2006,"Aortic aneurysm and dissection",1791,13,23
+"280",2006,"Parkinson's disease",1686,14,23
+"281",2006,"Pneumonitis due to solids and liquids",1465,15,23
+"282",2006,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1415,16,23
+"283",2006,"Essential hypertension and hypertensive renal disease",1284,17,23
+"284",2006,"Certain conditions originating in the perinatal period",1013,18,23
+"285",2006,"Atherosclerosis",960,19,23
+"286",2006,"Congenital malformations, deformations and chromosomal abnormalities",865,20,23
+"287",2006,"Assault (homicide)",487,21,23
+"288",2006,"Viral hepatitis",457,22,23
+"289",2006,"Human immunodeficiency virus disease",428,23,23
+"290",2006,"Anaemias",395,24,23
+"291",2006,"Peptic ulcer",380,25,23
+"292",2006,"Cholelithiasis and other disorders of gallbladder",342,26,23
+"293",2006,"Hernia",228,27,23
+"294",2006,"Complications of medical and surgical care",212,28,23
+"295",2006,"Nutritional deficiencies",201,29,23
+"296",2006,"Infections of kidney",129,30,23
+"297",2006,"Tuberculosis",90,31,23
+"298",2006,"Pneumoconioses and chemical effects",80,32,23
+"299",2006,"Hyperplasia of prostate",74,33,23
+"300",2006,"Meningitis",66,34,23
+"301",2006,"Diseases of appendix",63,35,23
+"302",2006,"Acute bronchitis and bronchiolitis",50,36,23
+"303",2006,"Pregnancy, childbirth and the puerperium",28,37,23
+"304",2006,"Meningococcal infection",12,38,23
+"305",2006,"Legal intervention",9,39,23
+"306",2006,"Inflammatory diseases of female pelvic organs",8,40,23
+"307",2006,"Syphilis",3,41,23
+"308",2006,"Salmonella infections",1,42,23
+"309",2006,"Scarlet fever and erysipelas",1,43,9
+"310",2006,"Measles",1,44,7
+"311",2007,"Malignant neoplasms",69595,1,23
+"312",2007,"Diseases of heart",50499,2,23
+"313",2007,"Cerebrovascular diseases",13981,3,23
+"314",2007,"Chronic lower respiratory diseases",10659,4,23
+"315",2007,"Accidents (unintentional injuries)",9951,5,23
+"316",2007,"Diabetes mellitus",7394,6,23
+"317",2007,"Alzheimer's disease",5903,7,23
+"318",2007,"Influenza and pneumonia",5452,8,23
+"319",2007,"Nephritis, nephrotic syndrome and nephrosis",3803,9,23
+"320",2007,"Intentional self-harm (suicide)",3611,10,23
+"321",2007,"Chronic liver disease and cirrhosis",2651,11,23
+"322",2007,"Sepsis",1972,12,23
+"323",2007,"Parkinson's disease",1890,13,23
+"324",2007,"Aortic aneurysm and dissection",1787,14,23
+"325",2007,"Pneumonitis due to solids and liquids",1614,15,23
+"326",2007,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1429,16,23
+"327",2007,"Essential hypertension and hypertensive renal disease",1363,17,23
+"328",2007,"Certain conditions originating in the perinatal period",1122,18,23
+"329",2007,"Congenital malformations, deformations and chromosomal abnormalities",866,19,23
+"330",2007,"Atherosclerosis",842,20,23
+"331",2007,"Assault (homicide)",515,21,23
+"332",2007,"Anaemias",499,22,23
+"333",2007,"Viral hepatitis",455,23,23
+"334",2007,"Human immunodeficiency virus disease",422,24,23
+"335",2007,"Peptic ulcer",410,25,23
+"336",2007,"Cholelithiasis and other disorders of gallbladder",388,26,23
+"337",2007,"Hernia",266,27,23
+"338",2007,"Nutritional deficiencies",233,28,23
+"339",2007,"Complications of medical and surgical care",192,29,23
+"340",2007,"Infections of kidney",120,30,23
+"341",2007,"Hyperplasia of prostate",99,31,23
+"342",2007,"Tuberculosis",93,32,23
+"343",2007,"Pneumoconioses and chemical effects",85,33,23
+"344",2007,"Acute bronchitis and bronchiolitis",71,34,23
+"345",2007,"Diseases of appendix",60,35,23
+"346",2007,"Meningitis",57,36,23
+"347",2007,"Pregnancy, childbirth and the puerperium",24,37,23
+"348",2007,"Inflammatory diseases of female pelvic organs",16,38,23
+"349",2007,"Meningococcal infection",13,39,23
+"350",2007,"Legal intervention",13,40,23
+"351",2007,"Syphilis",6,41,23
+"352",2007,"Salmonella infections",5,42,23
+"353",2007,"Malaria",2,43,13
+"354",2007,"Measles",1,44,7
+"355",2008,"Malignant neoplasms",70558,1,23
+"356",2008,"Diseases of heart",50722,2,23
+"357",2008,"Cerebrovascular diseases",13870,3,23
+"358",2008,"Chronic lower respiratory diseases",10923,4,23
+"359",2008,"Accidents (unintentional injuries)",10234,5,23
+"360",2008,"Diabetes mellitus",7521,6,23
+"361",2008,"Alzheimer's disease",6573,7,23
+"362",2008,"Influenza and pneumonia",5386,8,23
+"363",2008,"Nephritis, nephrotic syndrome and nephrosis",3846,9,23
+"364",2008,"Intentional self-harm (suicide)",3705,10,23
+"365",2008,"Chronic liver disease and cirrhosis",2748,11,23
+"366",2008,"Sepsis",2135,12,23
+"367",2008,"Parkinson's disease",1869,13,23
+"368",2008,"Aortic aneurysm and dissection",1668,14,23
+"369",2008,"Pneumonitis due to solids and liquids",1629,15,23
+"370",2008,"Essential hypertension and hypertensive renal disease",1553,16,23
+"371",2008,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1390,17,23
+"372",2008,"Certain conditions originating in the perinatal period",1107,18,23
+"373",2008,"Congenital malformations, deformations and chromosomal abnormalities",893,19,23
+"374",2008,"Atherosclerosis",850,20,23
+"375",2008,"Assault (homicide)",575,21,23
+"376",2008,"Anaemias",512,22,23
+"377",2008,"Viral hepatitis",446,23,23
+"378",2008,"Peptic ulcer",433,24,23
+"379",2008,"Human immunodeficiency virus disease",407,25,23
+"380",2008,"Cholelithiasis and other disorders of gallbladder",363,26,23
+"381",2008,"Hernia",294,27,23
+"382",2008,"Nutritional deficiencies",239,28,23
+"383",2008,"Complications of medical and surgical care",218,29,23
+"384",2008,"Infections of kidney",117,30,23
+"385",2008,"Tuberculosis",92,31,23
+"386",2008,"Pneumoconioses and chemical effects",90,32,23
+"387",2008,"Hyperplasia of prostate",88,33,23
+"388",2008,"Meningitis",55,34,23
+"389",2008,"Acute bronchitis and bronchiolitis",54,35,23
+"390",2008,"Diseases of appendix",42,36,23
+"391",2008,"Pregnancy, childbirth and the puerperium",34,37,23
+"392",2008,"Legal intervention",16,38,23
+"393",2008,"Meningococcal infection",14,39,23
+"394",2008,"Inflammatory diseases of female pelvic organs",11,40,23
+"395",2008,"Salmonella infections",7,41,23
+"396",2008,"Syphilis",5,42,23
+"397",2008,"Scarlet fever and erysipelas",3,43,9
+"398",2008,"Malaria",2,44,13
+"399",2008,"Shigellosis and amoebiasis",1,45,6
+"400",2008,"Whooping cough",1,46,13
+"401",2008,"Operations of war and their sequelae",1,47,10
+"402",2009,"Malignant neoplasms",71125,1,23
+"403",2009,"Diseases of heart",49271,2,23
+"404",2009,"Cerebrovascular diseases",14105,3,23
+"405",2009,"Chronic lower respiratory diseases",10859,4,23
+"406",2009,"Accidents (unintentional injuries)",10250,5,23
+"407",2009,"Diabetes mellitus",6923,6,23
+"408",2009,"Alzheimer's disease",6281,7,23
+"409",2009,"Influenza and pneumonia",5826,8,23
+"410",2009,"Intentional self-harm (suicide)",3890,9,23
+"411",2009,"Nephritis, nephrotic syndrome and nephrosis",3609,10,23
+"412",2009,"Chronic liver disease and cirrhosis",2683,11,23
+"413",2009,"Sepsis",2211,12,23
+"414",2009,"Parkinson's disease",1901,13,23
+"415",2009,"Pneumonitis due to solids and liquids",1710,14,23
+"416",2009,"Essential hypertension and hypertensive renal disease",1584,15,23
+"417",2009,"Aortic aneurysm and dissection",1564,16,23
+"418",2009,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1459,17,23
+"419",2009,"Certain conditions originating in the perinatal period",1076,18,23
+"420",2009,"Congenital malformations, deformations and chromosomal abnormalities",896,19,23
+"421",2009,"Atherosclerosis",816,20,23
+"422",2009,"Assault (homicide)",574,21,23
+"423",2009,"Anaemias",524,22,23
+"424",2009,"Viral hepatitis",451,23,23
+"425",2009,"Peptic ulcer",420,24,23
+"426",2009,"Cholelithiasis and other disorders of gallbladder",411,25,23
+"427",2009,"Human immunodeficiency virus disease",355,26,23
+"428",2009,"Hernia",312,27,23
+"429",2009,"Nutritional deficiencies",220,28,23
+"430",2009,"Complications of medical and surgical care",213,29,23
+"431",2009,"Infections of kidney",106,30,23
+"432",2009,"Pneumoconioses and chemical effects",84,31,23
+"433",2009,"Hyperplasia of prostate",77,32,23
+"434",2009,"Meningitis",75,33,23
+"435",2009,"Diseases of appendix",63,34,23
+"436",2009,"Tuberculosis",61,35,23
+"437",2009,"Acute bronchitis and bronchiolitis",57,36,23
+"438",2009,"Pregnancy, childbirth and the puerperium",29,37,23
+"439",2009,"Legal intervention",19,38,23
+"440",2009,"Meningococcal infection",12,39,23
+"441",2009,"Inflammatory diseases of female pelvic organs",12,40,23
+"442",2009,"Salmonella infections",5,41,23
+"443",2009,"Syphilis",3,42,23
+"444",2009,"Shigellosis and amoebiasis",2,43,6
+"445",2009,"Malaria",2,44,13
+"446",2009,"Whooping cough",1,45,13
+"447",2009,"Operations of war and their sequelae",1,46,10
+"448",2010,"Malignant neoplasms",71882,1,23
+"449",2010,"Diseases of heart",48757,2,23
+"450",2010,"Cerebrovascular diseases",13706,3,23
+"451",2010,"Accidents (unintentional injuries)",10866,4,23
+"452",2010,"Chronic lower respiratory diseases",10757,5,23
+"453",2010,"Diabetes mellitus",6942,6,23
+"454",2010,"Alzheimer's disease",6452,7,23
+"455",2010,"Influenza and pneumonia",5106,8,23
+"456",2010,"Intentional self-harm (suicide)",3951,9,23
+"457",2010,"Nephritis, nephrotic syndrome and nephrosis",3868,10,23
+"458",2010,"Chronic liver disease and cirrhosis",2668,11,23
+"459",2010,"Sepsis",2257,12,23
+"460",2010,"Parkinson's disease",2015,13,23
+"461",2010,"Pneumonitis due to solids and liquids",1959,14,23
+"462",2010,"Essential hypertension and hypertensive renal disease",1651,15,23
+"463",2010,"Aortic aneurysm and dissection",1533,16,23
+"464",2010,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1351,17,23
+"465",2010,"Certain conditions originating in the perinatal period",1130,18,23
+"466",2010,"Congenital malformations, deformations and chromosomal abnormalities",901,19,23
+"467",2010,"Atherosclerosis",764,20,23
+"468",2010,"Assault (homicide)",524,21,23
+"469",2010,"Viral hepatitis",486,22,23
+"470",2010,"Anaemias",480,23,23
+"471",2010,"Peptic ulcer",404,24,23
+"472",2010,"Cholelithiasis and other disorders of gallbladder",380,25,23
+"473",2010,"Human immunodeficiency virus disease",336,26,23
+"474",2010,"Hernia",318,27,23
+"475",2010,"Nutritional deficiencies",222,28,23
+"476",2010,"Complications of medical and surgical care",159,29,23
+"477",2010,"Infections of kidney",117,30,23
+"478",2010,"Hyperplasia of prostate",94,31,23
+"479",2010,"Pneumoconioses and chemical effects",90,32,23
+"480",2010,"Meningitis",77,33,23
+"481",2010,"Tuberculosis",67,34,23
+"482",2010,"Acute bronchitis and bronchiolitis",53,35,23
+"483",2010,"Diseases of appendix",49,36,23
+"484",2010,"Pregnancy, childbirth and the puerperium",24,37,23
+"485",2010,"Legal intervention",18,38,23
+"486",2010,"Inflammatory diseases of female pelvic organs",16,39,23
+"487",2010,"Meningococcal infection",14,40,23
+"488",2010,"Salmonella infections",9,41,23
+"489",2010,"Syphilis",4,42,23
+"490",2010,"Malaria",4,43,13
+"491",2010,"Operations of war and their sequelae",2,44,10
+"492",2010,"Whooping cough",1,45,13
+"493",2011,"Malignant neoplasms",72736,1,23
+"494",2011,"Diseases of heart",47911,2,23
+"495",2011,"Cerebrovascular diseases",13332,3,23
+"496",2011,"Chronic lower respiratory diseases",11243,4,23
+"497",2011,"Accidents (unintentional injuries)",10961,5,23
+"498",2011,"Diabetes mellitus",7255,6,23
+"499",2011,"Alzheimer's disease",6377,7,23
+"500",2011,"Influenza and pneumonia",5787,8,23
+"501",2011,"Intentional self-harm (suicide)",3896,9,23
+"502",2011,"Nephritis, nephrotic syndrome and nephrosis",3297,10,23
+"503",2011,"Chronic liver disease and cirrhosis",2855,11,23
+"504",2011,"Sepsis",2465,12,23
+"505",2011,"Parkinson's disease",2019,13,23
+"506",2011,"Pneumonitis due to solids and liquids",2009,14,23
+"507",2011,"Essential hypertension and hypertensive renal disease",1613,15,23
+"508",2011,"Aortic aneurysm and dissection",1487,16,23
+"509",2011,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1436,17,23
+"510",2011,"Certain conditions originating in the perinatal period",1093,18,23
+"511",2011,"Congenital malformations, deformations and chromosomal abnormalities",903,19,23
+"512",2011,"Atherosclerosis",766,20,23
+"513",2011,"Assault (homicide)",545,21,23
+"514",2011,"Anaemias",541,22,23
+"515",2011,"Viral hepatitis",465,23,23
+"516",2011,"Peptic ulcer",395,24,23
+"517",2011,"Cholelithiasis and other disorders of gallbladder",385,25,23
+"518",2011,"Hernia",345,26,23
+"519",2011,"Human immunodeficiency virus disease",306,27,23
+"520",2011,"Nutritional deficiencies",243,28,23
+"521",2011,"Complications of medical and surgical care",175,29,23
+"522",2011,"Infections of kidney",120,30,23
+"523",2011,"Hyperplasia of prostate",117,31,23
+"524",2011,"Pneumoconioses and chemical effects",103,32,23
+"525",2011,"Tuberculosis",76,33,23
+"526",2011,"Meningitis",58,34,23
+"527",2011,"Acute bronchitis and bronchiolitis",47,35,23
+"528",2011,"Diseases of appendix",38,36,23
+"529",2011,"Legal intervention",23,37,23
+"530",2011,"Pregnancy, childbirth and the puerperium",18,38,23
+"531",2011,"Inflammatory diseases of female pelvic organs",15,39,23
+"532",2011,"Meningococcal infection",10,40,23
+"533",2011,"Salmonella infections",5,41,23
+"534",2011,"Syphilis",4,42,23
+"535",2011,"Whooping cough",3,43,13
+"536",2011,"Arthropod-borne viral encephalitis",1,44,4
+"537",2011,"Malaria",1,45,13
+"538",2012,"Malignant neoplasms",74361,1,23
+"539",2012,"Diseases of heart",48681,2,23
+"540",2012,"Cerebrovascular diseases",13174,3,23
+"541",2012,"Accidents (unintentional injuries)",11290,4,23
+"542",2012,"Chronic lower respiratory diseases",11130,5,23
+"543",2012,"Diabetes mellitus",6993,6,23
+"544",2012,"Alzheimer's disease",6293,7,23
+"545",2012,"Influenza and pneumonia",5694,8,23
+"546",2012,"Intentional self-harm (suicide)",3926,9,23
+"547",2012,"Nephritis, nephrotic syndrome and nephrosis",3327,10,23
+"548",2012,"Chronic liver disease and cirrhosis",2882,11,23
+"549",2012,"Sepsis",2611,12,23
+"550",2012,"Parkinson's disease",2172,13,23
+"551",2012,"Pneumonitis due to solids and liquids",2013,14,23
+"552",2012,"Essential hypertension and hypertensive renal disease",1602,15,23
+"553",2012,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1469,16,23
+"554",2012,"Aortic aneurysm and dissection",1386,17,23
+"555",2012,"Certain conditions originating in the perinatal period",1080,18,23
+"556",2012,"Congenital malformations, deformations and chromosomal abnormalities",990,19,23
+"557",2012,"Atherosclerosis",671,20,23
+"558",2012,"Viral hepatitis",525,21,23
+"559",2012,"Assault (homicide)",493,22,23
+"560",2012,"Anaemias",477,23,23
+"561",2012,"Cholelithiasis and other disorders of gallbladder",423,24,23
+"562",2012,"Peptic ulcer",416,25,23
+"563",2012,"Hernia",339,26,23
+"564",2012,"Human immunodeficiency virus disease",276,27,23
+"565",2012,"Nutritional deficiencies",202,28,23
+"566",2012,"Complications of medical and surgical care",147,29,23
+"567",2012,"Infections of kidney",120,30,23
+"568",2012,"Hyperplasia of prostate",112,31,23
+"569",2012,"Pneumoconioses and chemical effects",108,32,23
+"570",2012,"Tuberculosis",68,33,23
+"571",2012,"Acute bronchitis and bronchiolitis",56,34,23
+"572",2012,"Diseases of appendix",54,35,23
+"573",2012,"Meningitis",37,36,23
+"574",2012,"Pregnancy, childbirth and the puerperium",22,37,23
+"575",2012,"Meningococcal infection",14,38,23
+"576",2012,"Inflammatory diseases of female pelvic organs",13,39,23
+"577",2012,"Legal intervention",13,40,23
+"578",2012,"Salmonella infections",8,41,23
+"579",2012,"Syphilis",4,42,23
+"580",2012,"Whooping cough",3,43,13
+"581",2012,"Malaria",3,44,13
+"582",2012,"Operations of war and their sequelae",1,45,10
+"583",2013,"Malignant neoplasms",75112,1,23
+"584",2013,"Diseases of heart",49891,2,23
+"585",2013,"Cerebrovascular diseases",13400,3,23
+"586",2013,"Chronic lower respiratory diseases",11976,4,23
+"587",2013,"Accidents (unintentional injuries)",11452,5,23
+"588",2013,"Diabetes mellitus",7045,6,23
+"589",2013,"Influenza and pneumonia",6551,7,23
+"590",2013,"Alzheimer's disease",6345,8,23
+"591",2013,"Intentional self-harm (suicide)",4054,9,23
+"592",2013,"Nephritis, nephrotic syndrome and nephrosis",2978,10,23
+"593",2013,"Chronic liver disease and cirrhosis",2961,11,23
+"594",2013,"Parkinson's disease",2354,12,23
+"595",2013,"Sepsis",2289,13,23
+"596",2013,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1531,14,23
+"597",2013,"Essential hypertension and hypertensive renal disease",1524,15,23
+"598",2013,"Aortic aneurysm and dissection",1482,16,23
+"599",2013,"Pneumonitis due to solids and liquids",1204,17,23
+"600",2013,"Certain conditions originating in the perinatal period",1125,18,23
+"601",2013,"Congenital malformations, deformations and chromosomal abnormalities",995,19,23
+"602",2013,"Atherosclerosis",708,20,23
+"603",2013,"Viral hepatitis",540,21,23
+"604",2013,"Anaemias",505,22,23
+"605",2013,"Peptic ulcer",471,23,23
+"606",2013,"Assault (homicide)",446,24,23
+"607",2013,"Cholelithiasis and other disorders of gallbladder",445,25,23
+"608",2013,"Hernia",360,26,23
+"609",2013,"Human immunodeficiency virus disease",241,27,23
+"610",2013,"Nutritional deficiencies",182,28,23
+"611",2013,"Complications of medical and surgical care",134,29,23
+"612",2013,"Pneumoconioses and chemical effects",119,30,23
+"613",2013,"Hyperplasia of prostate",111,31,23
+"614",2013,"Infections of kidney",110,32,23
+"615",2013,"Tuberculosis",82,33,23
+"616",2013,"Acute bronchitis and bronchiolitis",76,34,23
+"617",2013,"Meningitis",60,35,23
+"618",2013,"Diseases of appendix",51,36,23
+"619",2013,"Inflammatory diseases of female pelvic organs",24,37,23
+"620",2013,"Pregnancy, childbirth and the puerperium",23,38,23
+"621",2013,"Legal intervention",16,39,23
+"622",2013,"Salmonella infections",11,40,23
+"623",2013,"Meningococcal infection",10,41,23
+"624",2013,"Syphilis",5,42,23
+"625",2013,"Whooping cough",1,43,13
+"626",2013,"Measles",1,44,7
+"627",2014,"Malignant neoplasms",77059,1,23
+"628",2014,"Diseases of heart",51014,2,23
+"629",2014,"Cerebrovascular diseases",13573,3,23
+"630",2014,"Chronic lower respiratory diseases",11876,4,23
+"631",2014,"Accidents (unintentional injuries)",11724,5,23
+"632",2014,"Diabetes mellitus",7071,6,23
+"633",2014,"Influenza and pneumonia",6597,7,23
+"634",2014,"Alzheimer's disease",6410,8,23
+"635",2014,"Intentional self-harm (suicide)",4254,9,23
+"636",2014,"Chronic liver disease and cirrhosis",3126,10,23
+"637",2014,"Nephritis, nephrotic syndrome and nephrosis",3098,11,23
+"638",2014,"Parkinson's disease",2456,12,23
+"639",2014,"Sepsis",2359,13,23
+"640",2014,"Essential hypertension and hypertensive renal disease",1499,14,23
+"641",2014,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1461,15,23
+"642",2014,"Aortic aneurysm and dissection",1454,16,23
+"643",2014,"Pneumonitis due to solids and liquids",1267,17,23
+"644",2014,"Certain conditions originating in the perinatal period",1100,18,23
+"645",2014,"Congenital malformations, deformations and chromosomal abnormalities",1008,19,23
+"646",2014,"Atherosclerosis",671,20,23
+"647",2014,"Viral hepatitis",556,21,23
+"648",2014,"Anaemias",459,22,23
+"649",2014,"Assault (homicide)",439,23,23
+"650",2014,"Cholelithiasis and other disorders of gallbladder",423,24,23
+"651",2014,"Peptic ulcer",409,25,23
+"652",2014,"Hernia",363,26,23
+"653",2014,"Human immunodeficiency virus disease",205,27,23
+"654",2014,"Nutritional deficiencies",169,28,23
+"655",2014,"Complications of medical and surgical care",147,29,23
+"656",2014,"Infections of kidney",124,30,23
+"657",2014,"Hyperplasia of prostate",111,31,23
+"658",2014,"Pneumoconioses and chemical effects",108,32,23
+"659",2014,"Tuberculosis",81,33,23
+"660",2014,"Acute bronchitis and bronchiolitis",74,34,23
+"661",2014,"Meningitis",68,35,23
+"662",2014,"Diseases of appendix",52,36,23
+"663",2014,"Pregnancy, childbirth and the puerperium",23,37,23
+"664",2014,"Inflammatory diseases of female pelvic organs",16,38,23
+"665",2014,"Legal intervention",15,39,23
+"666",2014,"Salmonella infections",10,40,23
+"667",2014,"Meningococcal infection",7,41,23
+"668",2014,"Syphilis",3,42,23
+"669",2014,"Whooping cough",2,43,13
+"670",2014,"Scarlet fever and erysipelas",1,44,9
+"671",2014,"Measles",1,45,7
+"672",2014,"Malaria",1,46,13
+"673",2015,"Malignant neoplasms",77054,1,23
+"674",2015,"Diseases of heart",51534,2,23
+"675",2015,"Cerebrovascular diseases",13795,3,23
+"676",2015,"Chronic lower respiratory diseases",12573,4,23
+"677",2015,"Accidents (unintentional injuries)",11833,5,23
+"678",2015,"Influenza and pneumonia",7630,6,23
+"679",2015,"Diabetes mellitus",7172,7,23
+"680",2015,"Alzheimer's disease",6587,8,23
+"681",2015,"Intentional self-harm (suicide)",4405,9,23
+"682",2015,"Chronic liver disease and cirrhosis",3176,10,23
+"683",2015,"Nephritis, nephrotic syndrome and nephrosis",3129,11,23
+"684",2015,"Parkinson's disease",2543,12,23
+"685",2015,"Sepsis",2487,13,23
+"686",2015,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1526,14,23
+"687",2015,"Essential hypertension and hypertensive renal disease",1502,15,23
+"688",2015,"Aortic aneurysm and dissection",1483,16,23
+"689",2015,"Pneumonitis due to solids and liquids",1271,17,23
+"690",2015,"Certain conditions originating in the perinatal period",1067,18,23
+"691",2015,"Congenital malformations, deformations and chromosomal abnormalities",995,19,23
+"692",2015,"Atherosclerosis",566,20,23
+"693",2015,"Viral hepatitis",528,21,23
+"694",2015,"Anaemias",471,22,23
+"695",2015,"Assault (homicide)",456,23,23
+"696",2015,"Cholelithiasis and other disorders of gallbladder",449,24,23
+"697",2015,"Peptic ulcer",401,25,23
+"698",2015,"Hernia",374,26,23
+"699",2015,"Nutritional deficiencies",218,27,23
+"700",2015,"Human immunodeficiency virus disease",190,28,23
+"701",2015,"Hyperplasia of prostate",148,29,23
+"702",2015,"Complications of medical and surgical care",144,30,23
+"703",2015,"Infections of kidney",121,31,23
+"704",2015,"Tuberculosis",107,32,23
+"705",2015,"Pneumoconioses and chemical effects",105,33,23
+"706",2015,"Acute bronchitis and bronchiolitis",69,34,23
+"707",2015,"Meningitis",53,35,23
+"708",2015,"Diseases of appendix",41,36,23
+"709",2015,"Pregnancy, childbirth and the puerperium",27,37,23
+"710",2015,"Inflammatory diseases of female pelvic organs",20,38,23
+"711",2015,"Legal intervention",13,39,23
+"712",2015,"Salmonella infections",12,40,23
+"713",2015,"Meningococcal infection",6,41,23
+"714",2015,"Syphilis",4,42,23
+"715",2015,"Scarlet fever and erysipelas",1,43,9
+"716",2015,"Malaria",1,44,13
+"717",2016,"Malignant neoplasms",79084,1,23
+"718",2016,"Diseases of heart",51396,2,23
+"719",2016,"Cerebrovascular diseases",13551,3,23
+"720",2016,"Accidents (unintentional injuries)",12524,4,23
+"721",2016,"Chronic lower respiratory diseases",12293,5,23
+"722",2016,"Diabetes mellitus",6838,6,23
+"723",2016,"Alzheimer's disease",6521,7,23
+"724",2016,"Influenza and pneumonia",6235,8,23
+"725",2016,"Intentional self-harm (suicide)",3978,9,23
+"726",2016,"Chronic liver disease and cirrhosis",3385,10,23
+"727",2016,"Nephritis, nephrotic syndrome and nephrosis",3054,11,23
+"728",2016,"Parkinson's disease",2825,12,23
+"729",2016,"Sepsis",1909,13,23
+"730",2016,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1629,14,23
+"731",2016,"Essential hypertension and hypertensive renal disease",1512,15,23
+"732",2016,"Pneumonitis due to solids and liquids",1416,16,23
+"733",2016,"Aortic aneurysm and dissection",1400,17,23
+"734",2016,"Congenital malformations, deformations and chromosomal abnormalities",1044,18,23
+"735",2016,"Certain conditions originating in the perinatal period",1031,19,23
+"736",2016,"Atherosclerosis",570,20,23
+"737",2016,"Anaemias",474,21,23
+"738",2016,"Viral hepatitis",446,22,23
+"739",2016,"Cholelithiasis and other disorders of gallbladder",444,23,23
+"740",2016,"Peptic ulcer",410,24,23
+"741",2016,"Assault (homicide)",396,25,23
+"742",2016,"Hernia",381,26,23
+"743",2016,"Nutritional deficiencies",192,27,23
+"744",2016,"Human immunodeficiency virus disease",175,28,23
+"745",2016,"Complications of medical and surgical care",168,29,23
+"746",2016,"Hyperplasia of prostate",134,30,23
+"747",2016,"Infections of kidney",113,31,23
+"748",2016,"Pneumoconioses and chemical effects",105,32,23
+"749",2016,"Tuberculosis",88,33,23
+"750",2016,"Meningitis",62,34,23
+"751",2016,"Acute bronchitis and bronchiolitis",45,35,23
+"752",2016,"Diseases of appendix",43,36,23
+"753",2016,"Pregnancy, childbirth and the puerperium",24,37,23
+"754",2016,"Inflammatory diseases of female pelvic organs",15,38,23
+"755",2016,"Legal intervention",12,39,23
+"756",2016,"Meningococcal infection",9,40,23
+"757",2016,"Syphilis",8,41,23
+"758",2016,"Salmonella infections",5,42,23
+"759",2016,"Arthropod-borne viral encephalitis",4,43,4
+"760",2016,"Scarlet fever and erysipelas",1,44,9
+"761",2016,"Operations of war and their sequelae",1,45,10
+"762",2017,"Malignant neoplasms",80023,1,23
+"763",2017,"Diseases of heart",53494,2,23
+"764",2017,"Accidents (unintentional injuries)",15034,3,23
+"765",2017,"Cerebrovascular diseases",13934,4,23
+"766",2017,"Chronic lower respiratory diseases",12890,5,23
+"767",2017,"Influenza and pneumonia",7445,6,23
+"768",2017,"Diabetes mellitus",6938,7,23
+"769",2017,"Alzheimer's disease",6683,8,23
+"770",2017,"Intentional self-harm (suicide)",4462,9,23
+"771",2017,"Chronic liver disease and cirrhosis",3463,10,23
+"772",2017,"Nephritis, nephrotic syndrome and nephrosis",3275,11,23
+"773",2017,"Parkinson's disease",3137,12,23
+"774",2017,"Sepsis",2044,13,23
+"775",2017,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1609,14,23
+"776",2017,"Pneumonitis due to solids and liquids",1529,15,23
+"777",2017,"Aortic aneurysm and dissection",1518,16,23
+"778",2017,"Essential hypertension and hypertensive renal disease",1441,17,23
+"779",2017,"Certain conditions originating in the perinatal period",1048,18,23
+"780",2017,"Congenital malformations, deformations and chromosomal abnormalities",1010,19,23
+"781",2017,"Atherosclerosis",612,20,23
+"782",2017,"Anaemias",541,21,23
+"783",2017,"Assault (homicide)",537,22,23
+"784",2017,"Peptic ulcer",460,23,23
+"785",2017,"Cholelithiasis and other disorders of gallbladder",415,24,23
+"786",2017,"Hernia",385,25,23
+"787",2017,"Viral hepatitis",371,26,23
+"788",2017,"Nutritional deficiencies",227,27,23
+"789",2017,"Human immunodeficiency virus disease",142,28,23
+"790",2017,"Infections of kidney",141,29,23
+"791",2017,"Hyperplasia of prostate",132,30,23
+"792",2017,"Complications of medical and surgical care",128,31,23
+"793",2017,"Pneumoconioses and chemical effects",102,32,23
+"794",2017,"Tuberculosis",90,33,23
+"795",2017,"Meningitis",83,34,23
+"796",2017,"Diseases of appendix",55,35,23
+"797",2017,"Acute bronchitis and bronchiolitis",50,36,23
+"798",2017,"Pregnancy, childbirth and the puerperium",27,37,23
+"799",2017,"Inflammatory diseases of female pelvic organs",16,38,23
+"800",2017,"Legal intervention",16,39,23
+"801",2017,"Salmonella infections",10,40,23
+"802",2017,"Meningococcal infection",5,41,23
+"803",2017,"Syphilis",5,42,23
+"804",2017,"Whooping cough",1,43,13
+"805",2017,"Scarlet fever and erysipelas",1,44,9
+"806",2017,"Operations of war and their sequelae",1,45,10
+"807",2018,"Malignant neoplasms",79726,1,23
+"808",2018,"Diseases of heart",54203,2,23
+"809",2018,"Accidents (unintentional injuries)",15855,3,23
+"810",2018,"Cerebrovascular diseases",13547,4,23
+"811",2018,"Chronic lower respiratory diseases",13070,5,23
+"812",2018,"Influenza and pneumonia",8594,6,23
+"813",2018,"Diabetes mellitus",6864,7,23
+"814",2018,"Alzheimer's disease",6439,8,23
+"815",2018,"Intentional self-harm (suicide)",4576,9,23
+"816",2018,"Nephritis, nephrotic syndrome and nephrosis",3613,10,23
+"817",2018,"Chronic liver disease and cirrhosis",3573,11,23
+"818",2018,"Parkinson's disease",3104,12,23
+"819",2018,"Sepsis",2195,13,23
+"820",2018,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1752,14,23
+"821",2018,"Pneumonitis due to solids and liquids",1616,15,23
+"822",2018,"Aortic aneurysm and dissection",1601,16,23
+"823",2018,"Essential hypertension and hypertensive renal disease",1451,17,23
+"824",2018,"Congenital malformations, deformations and chromosomal abnormalities",1084,18,23
+"825",2018,"Certain conditions originating in the perinatal period",1033,19,23
+"826",2018,"Atherosclerosis",526,20,23
+"827",2018,"Anaemias",523,21,23
+"828",2018,"Assault (homicide)",517,22,23
+"829",2018,"Cholelithiasis and other disorders of gallbladder",457,23,23
+"830",2018,"Peptic ulcer",443,24,23
+"831",2018,"Hernia",423,25,23
+"832",2018,"Viral hepatitis",357,26,23
+"833",2018,"Nutritional deficiencies",250,27,23
+"834",2018,"Complications of medical and surgical care",168,28,23
+"835",2018,"Infections of kidney",163,29,23
+"836",2018,"Hyperplasia of prostate",150,30,23
+"837",2018,"Human immunodeficiency virus disease",142,31,23
+"838",2018,"Pneumoconioses and chemical effects",114,32,23
+"839",2018,"Meningitis",93,33,23
+"840",2018,"Tuberculosis",84,34,23
+"841",2018,"Acute bronchitis and bronchiolitis",63,35,23
+"842",2018,"Diseases of appendix",40,36,23
+"843",2018,"Pregnancy, childbirth and the puerperium",34,37,23
+"844",2018,"Legal intervention",18,38,23
+"845",2018,"Inflammatory diseases of female pelvic organs",17,39,23
+"846",2018,"Salmonella infections",7,40,23
+"847",2018,"Syphilis",7,41,23
+"848",2018,"Meningococcal infection",6,42,23
+"849",2018,"Shigellosis and amoebiasis",1,43,6
+"850",2018,"Whooping cough",1,44,13
+"851",2018,"Malaria",1,45,13
+"852",2019,"Malignant neoplasms",80372,1,23
+"853",2019,"Diseases of heart",53364,2,23
+"854",2019,"Accidents (unintentional injuries)",15527,3,23
+"855",2019,"Cerebrovascular diseases",13717,4,23
+"856",2019,"Chronic lower respiratory diseases",12902,5,23
+"857",2019,"Diabetes mellitus",6987,6,23
+"858",2019,"Influenza and pneumonia",6945,7,23
+"859",2019,"Alzheimer's disease",6181,8,23
+"860",2019,"Intentional self-harm (suicide)",4581,9,23
+"861",2019,"Nephritis, nephrotic syndrome and nephrosis",3770,10,23
+"862",2019,"Chronic liver disease and cirrhosis",3708,11,23
+"863",2019,"Parkinson's disease",3155,12,23
+"864",2019,"Sepsis",2139,13,23
+"865",2019,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1767,14,23
+"866",2019,"Essential hypertension and hypertensive renal disease",1588,15,23
+"867",2019,"Aortic aneurysm and dissection",1584,16,23
+"868",2019,"Pneumonitis due to solids and liquids",1573,17,23
+"869",2019,"Certain conditions originating in the perinatal period",1009,18,23
+"870",2019,"Congenital malformations, deformations and chromosomal abnormalities",1009,19,23
+"871",2019,"Anaemias",543,20,23
+"872",2019,"Atherosclerosis",531,21,23
+"873",2019,"Assault (homicide)",531,22,23
+"874",2019,"Peptic ulcer",490,23,23
+"875",2019,"Cholelithiasis and other disorders of gallbladder",488,24,23
+"876",2019,"Hernia",446,25,23
+"877",2019,"Viral hepatitis",311,26,23
+"878",2019,"Nutritional deficiencies",217,27,23
+"879",2019,"Infections of kidney",168,28,23
+"880",2019,"Complications of medical and surgical care",162,29,23
+"881",2019,"Hyperplasia of prostate",123,30,23
+"882",2019,"Pneumoconioses and chemical effects",110,31,23
+"883",2019,"Human immunodeficiency virus disease",105,32,23
+"884",2019,"Meningitis",77,33,23
+"885",2019,"Tuberculosis",71,34,23
+"886",2019,"Diseases of appendix",47,35,23
+"887",2019,"Pregnancy, childbirth and the puerperium",32,36,23
+"888",2019,"Acute bronchitis and bronchiolitis",22,37,23
+"889",2019,"Inflammatory diseases of female pelvic organs",20,38,23
+"890",2019,"Legal intervention",14,39,23
+"891",2019,"Meningococcal infection",9,40,23
+"892",2019,"Salmonella infections",6,41,23
+"893",2019,"Syphilis",3,42,23
+"894",2019,"Whooping cough",2,43,13
+"895",2019,"Arthropod-borne viral encephalitis",1,44,4
+"896",2019,"Measles",1,45,7
+"897",2020,"Malignant neoplasms",81242,1,23
+"898",2020,"Diseases of heart",54430,2,23
+"899",2020,"Accidents (unintentional injuries)",16818,3,23
+"900",2020,"COVID-19",15890,4,3
+"901",2020,"Cerebrovascular diseases",13761,5,23
+"902",2020,"Chronic lower respiratory diseases",11844,6,23
+"903",2020,"Diabetes mellitus",7654,7,23
+"904",2020,"Influenza and pneumonia",6037,8,23
+"905",2020,"Alzheimer's disease",5788,9,23
+"906",2020,"Chronic liver disease and cirrhosis",4199,10,23
+"907",2020,"Intentional self-harm (suicide)",4152,11,23
+"908",2020,"Nephritis, nephrotic syndrome and nephrosis",4065,12,23
+"909",2020,"Parkinson's disease",3458,13,23
+"910",2020,"Sepsis",2246,14,23
+"911",2020,"Essential hypertension and hypertensive renal disease",1964,15,23
+"912",2020,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1860,16,23
+"913",2020,"Pneumonitis due to solids and liquids",1686,17,23
+"914",2020,"Aortic aneurysm and dissection",1537,18,23
+"915",2020,"Congenital malformations, deformations and chromosomal abnormalities",1060,19,23
+"916",2020,"Certain conditions originating in the perinatal period",939,20,23
+"917",2020,"Anaemias",627,21,23
+"918",2020,"Assault (homicide)",559,22,23
+"919",2020,"Peptic ulcer",555,23,23
+"920",2020,"Atherosclerosis",538,24,23
+"921",2020,"Cholelithiasis and other disorders of gallbladder",511,25,23
+"922",2020,"Hernia",429,26,23
+"923",2020,"Viral hepatitis",262,27,23
+"924",2020,"Nutritional deficiencies",254,28,23
+"925",2020,"Infections of kidney",188,29,23
+"926",2020,"Hyperplasia of prostate",188,30,23
+"927",2020,"Complications of medical and surgical care",169,31,23
+"928",2020,"Human immunodeficiency virus disease",136,32,23
+"929",2020,"Pneumoconioses and chemical effects",119,33,23
+"930",2020,"Tuberculosis",99,34,23
+"931",2020,"Meningitis",76,35,23
+"932",2020,"Diseases of appendix",48,36,23
+"933",2020,"Pregnancy, childbirth and the puerperium",34,37,23
+"934",2020,"Inflammatory diseases of female pelvic organs",26,38,23
+"935",2020,"Legal intervention",22,39,23
+"936",2020,"Acute bronchitis and bronchiolitis",20,40,23
+"937",2020,"Salmonella infections",9,41,23
+"938",2020,"Meningococcal infection",8,42,23
+"939",2020,"Syphilis",6,43,23
+"940",2020,"Operations of war and their sequelae",1,44,10
+"941",2021,"Malignant neoplasms",82822,1,23
+"942",2021,"Diseases of heart",55271,2,23
+"943",2021,"Accidents (unintentional injuries)",19257,3,23
+"944",2021,"COVID-19",14466,4,3
+"945",2021,"Cerebrovascular diseases",13491,5,23
+"946",2021,"Chronic lower respiratory diseases",11018,6,23
+"947",2021,"Diabetes mellitus",7472,7,23
+"948",2021,"Alzheimer's disease",5471,8,23
+"949",2021,"Chronic liver disease and cirrhosis",4617,9,23
+"950",2021,"Influenza and pneumonia",4115,10,23
+"951",2021,"Nephritis, nephrotic syndrome and nephrosis",3978,11,23
+"952",2021,"Intentional self-harm (suicide)",3769,12,23
+"953",2021,"Parkinson's disease",3489,13,23
+"954",2021,"Sepsis",2064,14,23
+"955",2021,"Essential hypertension and hypertensive renal disease",1983,15,23
+"956",2021,"Pneumonitis due to solids and liquids",1912,16,23
+"957",2021,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1793,17,23
+"958",2021,"Aortic aneurysm and dissection",1544,18,23
+"959",2021,"Certain conditions originating in the perinatal period",964,19,23
+"960",2021,"Congenital malformations, deformations and chromosomal abnormalities",930,20,23
+"961",2021,"Anaemias",652,21,23
+"962",2021,"Cholelithiasis and other disorders of gallbladder",629,22,23
+"963",2021,"Peptic ulcer",575,23,23
+"964",2021,"Atherosclerosis",468,24,23
+"965",2021,"Hernia",464,25,23
+"966",2021,"Assault (homicide)",431,26,23
+"967",2021,"Nutritional deficiencies",274,27,23
+"968",2021,"Viral hepatitis",271,28,23
+"969",2021,"Complications of medical and surgical care",205,29,23
+"970",2021,"Infections of kidney",203,30,23
+"971",2021,"Hyperplasia of prostate",172,31,23
+"972",2021,"Human immunodeficiency virus disease",133,32,23
+"973",2021,"Pneumoconioses and chemical effects",127,33,23
+"974",2021,"Tuberculosis",110,34,23
+"975",2021,"Meningitis",58,35,23
+"976",2021,"Diseases of appendix",57,36,23
+"977",2021,"Inflammatory diseases of female pelvic organs",41,37,23
+"978",2021,"Pregnancy, childbirth and the puerperium",30,38,23
+"979",2021,"Salmonella infections",11,39,23
+"980",2021,"Legal intervention",11,40,23
+"981",2021,"Meningococcal infection",7,41,23
+"982",2021,"Acute bronchitis and bronchiolitis",7,42,23
+"983",2021,"Syphilis",6,43,23
+"984",2021,"Arthropod-borne viral encephalitis",2,44,4
+"985",2021,"Shigellosis and amoebiasis",1,45,6
+"986",2021,"Operations of war and their sequelae",1,46,10
+"987",2022,"Malignant neoplasms",82412,1,23
+"988",2022,"Diseases of heart",57357,2,23
+"989",2022,"COVID-19",19716,3,3
+"990",2022,"Accidents (unintentional injuries)",18365,4,23
+"991",2022,"Cerebrovascular diseases",13915,5,23
+"992",2022,"Chronic lower respiratory diseases",12462,6,23
+"993",2022,"Diabetes mellitus",7557,7,23
+"994",2022,"Influenza and pneumonia",5985,8,23
+"995",2022,"Alzheimer's disease",5413,9,23
+"996",2022,"Chronic liver disease and cirrhosis",4530,10,23
+"997",2022,"Nephritis, nephrotic syndrome and nephrosis",4234,11,23
+"998",2022,"Parkinson's disease",3617,12,23
+"999",2022,"Intentional self-harm (suicide)",3593,13,23
+"1000",2022,"Sepsis",2183,14,23
+"1001",2022,"Pneumonitis due to solids and liquids",2104,15,23
+"1002",2022,"Essential hypertension and hypertensive renal disease",2074,16,23
+"1003",2022,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour",1803,17,23
+"1004",2022,"Aortic aneurysm and dissection",1509,18,23
+"1005",2022,"Congenital malformations, deformations and chromosomal abnormalities",1037,19,23
+"1006",2022,"Certain conditions originating in the perinatal period",959,20,23
+"1007",2022,"Anaemias",654,21,23
+"1008",2022,"Cholelithiasis and other disorders of gallbladder",565,22,23
+"1009",2022,"Peptic ulcer",561,23,23
+"1010",2022,"Hernia",498,24,23
+"1011",2022,"Atherosclerosis",471,25,23
+"1012",2022,"Nutritional deficiencies",321,26,23
+"1013",2022,"Assault (homicide)",306,27,23
+"1014",2022,"Complications of medical and surgical care",279,28,23
+"1015",2022,"Viral hepatitis",210,29,23
+"1016",2022,"Infections of kidney",207,30,23
+"1017",2022,"Hyperplasia of prostate",203,31,23
+"1018",2022,"Human immunodeficiency virus disease",129,32,23
+"1019",2022,"Tuberculosis",119,33,23
+"1020",2022,"Pneumoconioses and chemical effects",109,34,23
+"1021",2022,"Meningitis",89,35,23
+"1022",2022,"Diseases of appendix",64,36,23
+"1023",2022,"Inflammatory diseases of female pelvic organs",34,37,23
+"1024",2022,"Pregnancy, childbirth and the puerperium",30,38,23
+"1025",2022,"Acute bronchitis and bronchiolitis",20,39,23
+"1026",2022,"Salmonella infections",12,40,23
+"1027",2022,"Legal intervention",9,41,23
+"1028",2022,"Meningococcal infection",6,42,23
+"1029",2022,"Syphilis",4,43,23
+"1030",2022,"Scarlet fever and erysipelas",1,44,9
+"1031",2022,"Malaria",1,45,13

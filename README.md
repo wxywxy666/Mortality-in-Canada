@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Overview:
 
 This repository contains a dataset and analysis focusing on mortality

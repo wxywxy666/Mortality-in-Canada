@@ -50,6 +50,6 @@ new <- new %>%
 new <- new %>%
   mutate(total_deaths = as.numeric(gsub(",", "", total_deaths))) %>%
   group_by(cause) %>%
-  mutate(n = sum(total_deaths != 0))
+  mutate(years = sum(total_deaths != 0))
 
 write.csv(new, "inputs/cleaned_data")

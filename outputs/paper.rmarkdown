@@ -14,6 +14,7 @@ number-sections: true
 format: pdf
 bibliography: references.bib
 ---
+
 ```{r setup, include=FALSE}
 # Load libraries
 library(ggplot2)
@@ -29,6 +30,7 @@ options(mc.cores = parallel::detectCores())
 rstan::rstan_options(auto_write = TRUE)
 options(rstan.verbose = FALSE)
 ```
+
 \newpage
 # Introduction
 Studying public health mortality rates is of great significance to policy makers, healthcare professionals, and society as a whole. Mortality is an important indicator of social well-being and health system efficiency. It provides valuable insights for addressing the challenges faced by understanding the overall health situation, which in turn guides resource allocation and policy decisions.
@@ -60,6 +62,7 @@ First, the original dataset file of "Leading causes of death", named "1310039401
 In order to understand the data more intuitively, data cleansing is necessary. The other reason is that the original data file contains many irrelevant instructions and variables. The first step is to delete them directly and to rename “Leading causes of death” as “cause”. And then, replace the original classification method based on the cause of death with year, named “year”. Next, add two variables, "ranking" represents the ranking of the number of people for this cause in the same year, and "years" represents the number of times this cause appears from 2000 to 2022. Finally, sort them with "year" as the main one, and then sort them in the reverse order of "total_death" according to this cause in this year, that is, in the forward order of "ranking".
 
 ### Preview
+
 ```{r echo = FALSE, fig.cap = "Modeling the most prevalent cause of deaths in Canada, 2000-2022"}
 #| label: tbl-1
 cleaned_data <- read.csv("cleaned_data")
@@ -81,9 +84,11 @@ cleaned_data |>
   ) %>%
   kable_styling(bootstrap_options = c("striped", "hover"))
 ```
+
 Preview the processed clean data first, which is very helpful for understanding the overall data. @tbl-1 shows the top-ten causes in 2022, from which some rough findings can be obtained. We previously predicted that the number of occurrences of most causes of death would be 23, which means they would occur every year, but the actual situation is that except for COVID-19, the rest are 23, and COVID-19 is 3, because COVID-19 suddenly appeared in 2020. Does this mean that Canada’s medical and health system has not undergone significant changes? The same diseases are still plaguing the people in 23 years.
 
 ### Trend
+
 ```{r echo = FALSE, fig.cap = "Annual number of deaths for the top-five causes in 2022, since 2001, for Canada"}
 #| label: fig-1
 # Select top five causes
@@ -109,10 +114,12 @@ cleaned_data |>
   facet_wrap(vars(cause), scales = "free_y", dir = "v", ncol = 1) +
   theme(legend.position = "none")
 ```
+
 @fig-1 shows how many people died from different causes each year in Canada from 2000 to around 2022. The vertical axis represents the annual number of deaths. The horizontal axis represents time, from the year 2000 to about 2024. Different colored lines for each cause show whether the number of deaths is going up, going down, or staying about the same over time. The red line has some fluctuations, but the overall trend is upward, indicating that deaths from accidents have been rising. The blue line is mostly flat with a bit of a drop, which could mean fewer people are dying from strokes and related diseases. This suggests improvements in healthcare or prevention measures for these conditions. The green line climbs up slowly, indicating more deaths from diseases like emphysema. The purple line indicates The number of deaths from heart disease is the highest among the listed causes and shows a slight upward trend over the two decades, with some fluctuations but no significant increase or decrease. Orange Line: The trend for cancer-related deaths is gradually increasing, indicating a growing number of deaths due to malignant neoplasms over the years.
 
 \newpage
 # Result
+
 ```{r echo = FALSE, fig.cap = "Summary statistics of the number of yearly deaths, by cause, in Canada"}
 #| label: tbl-2
 death <- data.frame(total <- as.numeric(cleaned_data$total_deaths))
@@ -132,6 +139,7 @@ kable(summary_table, table.attr = "style='width:100%;'") %>%
   kable_styling(bootstrap_options = c("striped", "hover"), full_width = F) %>%
   row_spec(0, bold = T)
 ```
+
 @tbl-2 tells us the summary statistics of the number of yearly deaths by cause in Canada. The number of observations in the data is 115. The minimum value in the data set is 8521 and the maximum value is 82822.SD refers to Stands for Standard Deviation, a measure of how spread out numbers are in the set is 25849.99. Var refers to variance, indicating how much the numbers vary from the average, and it's 668221779.
 
 ## Model fitting
@@ -147,6 +155,7 @@ When means and variances are not equal, especially when overdispersion occurs, u
 
 ## Estimate
 Implementing Poisson and negative binomial regression, simultaneously. Model the most prevalent cause of deaths. According to the @tbl-3, the estimates are similar, so it is necessary to use a posterior predictive check in addition.
+
 ```{r  echo=FALSE, warning = FALSE, fig.cap = "Modeling the most prevalent cause of deaths in Canada, 2001-2020"}
 #| label: tbl-3
 cause_of_death_canada_poisson <-
@@ -173,8 +182,10 @@ modelsummary(
 )
 ```
 
+
 ## Posterior predictive check
 @fig-2 indicate that negative binomial approach is a better choice for this circumstance. But it’s too early to draw conclusions from the figures alone.
+
 ```{r echo = FALSE}
 #| label: fig-2
 #| warning: false
@@ -189,6 +200,7 @@ pp_check(cause_of_death_canada_neg_binomial) +
   theme(legend.position = "bottom") +
   theme_classic()
 ```
+
 There are many observations with a pareto_k > 0.7. Large Pareto's K means the model posterior would be too different if one data point is being removed. This suggests that the model is not capturing the data well (i.e. some data points with high K are highly influential and not being considered by the model). 
 
 ## Resampling
@@ -196,6 +208,7 @@ Following this logic, LOOCV(Leave-one-out cross-validation) will not be trustwor
 
 It is less computationally intensive, and more efficient when processing large data sets.
 So K-fold will be a more suitable resampling method in this study.
+
 ```{r echo = FALSE, message = FALSE, warning = FALSE, fig.cap = "K-fold cross-validation summary"}
 #| label: tbl-4
 poisson <- kfold(cause_of_death_canada_poisson, k = 10, cores = 1)
@@ -208,6 +221,7 @@ kable(as.data.frame(comparison_results), booktabs = TRUE) %>%
   kable_styling(font_size = 8, full_width = F)%>%
   row_spec(0, bold = T)
 ```
+
 The information provided in the @tbl-4 allows us to compare the relative performance of the negative binomial model and the Poisson model. The result mainly relies on the “elpd_diff” and “elpd_kfold” values of the two models, namely "expected log pointwise predictive density difference" and "ELPD for K-fold cross-validation". The higher these two values are, the better the model's predictive performance is.
 
 From table, we can see that the negative binomial model has higher “elpd_diff” and “elpd_kfold” values and also has a smaller standard deviation. This shows that the negative binomial model has better predictive performance than the Poisson model in cross-validation. Therefore, we can infer that the negative binomial model is a better fit for the overall number of deaths by cause, in Canada, from 2000 to 2022.

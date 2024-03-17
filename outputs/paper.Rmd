@@ -72,7 +72,7 @@ In order to understand the data more intuitively, data cleansing is necessary. T
 ```{r echo = FALSE}
 #| label: tbl-1
 #| tbl-cap: "Modeling the most prevalent cause of deaths in Canada, 2000-2022"
-cleaned_data <- read.csv("cleaned_data")
+cleaned_data <- read.csv(here::here("cleaned_data"))
 cleaned_data <- cleaned_data[, -1]
 
 # Create the filtered and mutated table

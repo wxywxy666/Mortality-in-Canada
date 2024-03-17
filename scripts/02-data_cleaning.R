@@ -2,7 +2,7 @@
 library(dplyr)
 
 # Read the CSV file as lines
-lines <- readLines("inputs/1310039401-eng.csv")
+lines <- readLines("inputs/raw_data.csv")
 
 # Skip specified lines
 lines_to_keep <- lines[-c(1:11, 13:15, 118:152)]

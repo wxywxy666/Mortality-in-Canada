@@ -8,9 +8,9 @@
 
 -   **scripts:** This folder contains scripts which deal with data, such as simulation, test and cleaning. Also includes a *LLM* folder to show the usage of LLM like chatGPT from OpenAi.
 
--   **inputs:** This folder contains simulated, raw and cleaned data.
+-   **inputs:** This folder contains simulated, raw and cleaned data. Besides, *datasheet.pdf* describes the source, structure, potential bias, usage limitations, collection methods, and other information of the input data set.
 
--   **outputs:** This folder contains different format of paper, such as *.qmd*, *.Rmd* and *.pdf.* The *reference* here contains all references to external resources used in this study.
+-   **outputs:** This folder contains different format of paper, such as *.qmd*, *.Rmd* and *.pdf.* The *reference.bib* contains all references to external resources used in this study.
 
 ## LLM Statement:
 

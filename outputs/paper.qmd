@@ -52,7 +52,7 @@ Data from Statistics Canada is updated annually, and the specific data used in t
 Using Poisson and negative binomial distributions as link functions, the data were fitted and the results of the two distributions were compared to select the best link function. The Poisson distribution is a simple way to predict events, but it expects the average number of events to be the same as the amount they vary, which isn't always true for actual data.The negative binomial distribution is a more flexible version that can deal with differences between the average number of events and how much they vary by including an extra detail, the dispersion parameter, that helps when the data is more spread out than the average.
 
 ## Raw data
-First, the original dataset file of "Leading causes of death", named "1310039401-eng", was downloaded from Statistics Canada. Five key variables are included. "Leading cause of death" in the table is defined as an illness or injury that triggers a sequence of events leading directly to death, or an accident or violent situation that results in a fatal injury. The underlying cause is selected from the conditions listed on the medical certificate of cause of death. "Characteristics" contains the "Rank of leading causes of death" which is based on the "Number of deaths". "Age at time of death" is attained at the last birthday preceding death. "Reference period" contains specific numbers, from 2000 to 2022.
+First, the original dataset file of "Leading causes of death", called "1310039401-eng", was downloaded from Statistics Canada and renamed as "raw_data". Five key variables are included. "Leading cause of death" in the table is defined as an illness or injury that triggers a sequence of events leading directly to death, or an accident or violent situation that results in a fatal injury. The underlying cause is selected from the conditions listed on the medical certificate of cause of death. "Characteristics" contains the "Rank of leading causes of death" which is based on the "Number of deaths". "Age at time of death" is attained at the last birthday preceding death. "Reference period" contains specific numbers, from 2000 to 2022.
 
 ## Data cleaning
 In order to understand the data more intuitively, data cleansing is necessary. The other reason is that the original data file contains many irrelevant instructions and variables. The first step is to delete them directly and to rename “Leading causes of death” as “cause”. And then, replace the original classification method based on the cause of death with year, named “year”. Next, add two variables, "ranking" represents the ranking of the number of people for this cause in the same year, and "years" represents the number of times this cause appears from 2000 to 2022. Finally, sort them with "year" as the main one, and then sort them in the reverse order of "total_death" according to this cause in this year, that is, in the forward order of "ranking".
@@ -61,7 +61,7 @@ In order to understand the data more intuitively, data cleansing is necessary. T
 ```{r echo = FALSE}
 #| label: tbl-1
 #| tbl-cap: "Modeling the most prevalent cause of deaths in Canada, 2000-2022"
-cleaned_data <- read.csv("cleaned_data")
+cleaned_data <- read.csv("inputs/cleaned_data.csv")
 cleaned_data <- cleaned_data[, -1]
 
 # Create the filtered and mutated table

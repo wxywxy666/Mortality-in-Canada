@@ -61,7 +61,7 @@ In order to understand the data more intuitively, data cleansing is necessary. T
 ```{r echo = FALSE}
 #| label: tbl-1
 #| tbl-cap: "Modeling the most prevalent cause of deaths in Canada, 2000-2022"
-cleaned_data <- read.csv("inputs/cleaned_data.csv")
+cleaned_data <- read.csv("cleaned_data")
 cleaned_data <- cleaned_data[, -1]
 
 # Create the filtered and mutated table
@@ -80,11 +80,10 @@ cleaned_data |>
   ) %>%
   kable_styling(bootstrap_options = c("striped", "hover"))
 ```
-
 Preview the processed clean data first, which is very helpful for understanding the overall data. @tbl-1 shows the top-ten causes in 2022, from which some rough findings can be obtained. We previously predicted that the number of occurrences of most causes of death would be 23, which means they would occur every year, but the actual situation is that except for COVID-19, the rest are 23, and COVID-19 is 3, because COVID-19 suddenly appeared in 2020. Does this mean that Canada’s medical and health system has not undergone significant changes? The same diseases are still plaguing the people in 23 years.
 
 ### Trend
-```{r echo = FALSE}
+```{r echo = FALSE, fig.width = 10, fig.height = 5}
 #| label: fig-1
 #| fig-cap: "Annual number of deaths for the top-five causes in 2022, since 2001, for Canada"
 # Select top five causes
@@ -110,7 +109,6 @@ cleaned_data |>
   facet_wrap(vars(cause), scales = "free_y", dir = "v", ncol = 1) +
   theme(legend.position = "none")
 ```
-
 @fig-1 shows how many people died from different causes each year in Canada from 2000 to around 2022. The vertical axis represents the annual number of deaths. The horizontal axis represents time, from the year 2000 to about 2024. Different colored lines for each cause show whether the number of deaths is going up, going down, or staying about the same over time. The red line has some fluctuations, but the overall trend is upward, indicating that deaths from accidents have been rising. The blue line is mostly flat with a bit of a drop, which could mean fewer people are dying from strokes and related diseases. This suggests improvements in healthcare or prevention measures for these conditions. The green line climbs up slowly, indicating more deaths from diseases like emphysema. The purple line indicates The number of deaths from heart disease is the highest among the listed causes and shows a slight upward trend over the two decades, with some fluctuations but no significant increase or decrease. Orange Line: The trend for cancer-related deaths is gradually increasing, indicating a growing number of deaths due to malignant neoplasms over the years.
 
 \newpage
@@ -175,20 +173,16 @@ modelsummary(
 ```
 
 ## Posterior predictive check
-@fig-2, @fig-3 indicate that negative binomial approach is a better choice for this circumstance. But it’s too early to draw conclusions from the figures alone.
-```{r echo = FALSE}
+@fig-2 indicates that negative binomial approach is a better choice for this circumstance. But it’s too early to draw conclusions from the figures alone.
+```{r echo = FALSE, warning = FALSE}
 #| label: fig-2
-#| warning: false
-#| fig-cap: "(a) Poisson model"
+#| fig-cap: "Fitting data into different models"
+#| fig-subcap: ["Poisson model", "Negative binomial model"]
+#| layout-ncol: 2
 pp_check(cause_of_death_canada_poisson) +
   theme(legend.position = "bottom") +
   theme_classic()
-```
 
-```{r echo = FALSE}
-#| label: fig-3
-#| warning: false
-#| fig-cap: "(b) Negative binomial model"
 pp_check(cause_of_death_canada_neg_binomial) +
   theme(legend.position = "bottom") +
   theme_classic()

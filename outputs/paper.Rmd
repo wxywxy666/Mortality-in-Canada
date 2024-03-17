@@ -14,7 +14,6 @@ number-sections: true
 format: pdf
 bibliography: references.bib
 ---
-
 ```{r setup, include=FALSE}
 # Load libraries
 library(ggplot2)
@@ -30,15 +29,13 @@ options(mc.cores = parallel::detectCores())
 rstan::rstan_options(auto_write = TRUE)
 options(rstan.verbose = FALSE)
 ```
-
 \newpage
 # Introduction
 Studying public health mortality rates is of great significance to policy makers, healthcare professionals, and society as a whole. Mortality is an important indicator of social well-being and health system efficiency. It provides valuable insights for addressing the challenges faced by understanding the overall health situation, which in turn guides resource allocation and policy decisions.
 
 For the purposes of this study, our primary estimate is mortality in Canada from 2000 to 2022, broken down by major cause for each year. In-depth analyses were conducted by fitting mathematical models, taking into account the impact of various social and health care factors on mortality. Through a comprehensive analysis of the mortality situation, we aim to reflect on overall social trends and health care dynamics in Canada. Our study provides a nuanced understanding of mortality, highlighting its complexity and the factors that influence it.
 
-One important result of our analysis is that there is a complex relationship between mortality rate and various social and healthcare factors. This discovery is the focus of our report, providing valuable insights into the challenges and opportunities facing the Canadian healthcare system.
-By exploring the complexity of Canada's public health mortality rate, we hope to deepen our understanding of this key indicator and its impact on policy-making, healthcare services, and social well-being.
+One important result of our analysis is that there is a complex relationship between mortality rate and various social and healthcare factors. This discovery is the focus of our report, providing valuable insights into the challenges and opportunities facing the Canadian healthcare system. By exploring the complexity of Canada's public health mortality rate, we hope to deepen our understanding of this key indicator and its impact on policy-making, healthcare services, and social well-being.
 
 We use R[@R] for all data wrangling and analysis and R packages dplyr[@dplyr] to clean the original data, ggplot2[@ggplot2], knitr[@knitr], kableExtra[@kableExtra] to produce the charts and modelsummary[@modelsummary], rstanarm[@rstanarm], broom.mixed[@broom], loo[@loo] to fit the data into the model and generate relevant analysis charts.
 
@@ -49,8 +46,7 @@ This section seeks to provide a comprehensive understanding of the dataset used 
 ## Source
 Our study uses a dataset from Statistics Canada[@statcan] and focuses on mortality trends in Canada from 2000 to 2022, categorized by age, sex, and cause of death. This information is crucial for understanding public health trends and guiding policy decisions. Therefore, this dataset was selected due to its comprehensive coverage, high data quality and reliability.
 
-Data from Statistics Canada is updated annually, and the specific data used in this article is the latest available as of 2022 . Raw data set presents data on the total number of deaths in Canada and ranks the leading causes of death, such as salmonella infections, shigellosis and amoebiasis, and tuberculosis, etc. Also included are maps of the age at time of death, the distribution of both genders, and partial places of residence. It is worth noting that The category "Age at time of death,  all ages" includes the number of deaths for children aged under one year old, The deaths for which age is not stated are included in the "Age at the time of death, all ages" category but not distributed among age groups.
-All of the data is possessed and cleaned through R studio, a programming language for statistical computing and graphics.
+Data from Statistics Canada is updated annually, and the specific data used in this article is the latest available as of 2022 . Raw data set presents data on the total number of deaths in Canada and ranks the leading causes of death, such as salmonella infections, shigellosis and amoebiasis, and tuberculosis, etc. Also included are maps of the age at time of death, the distribution of both genders, and partial places of residence. It is worth noting that The category "Age at time of death, all ages" includes the number of deaths for children aged under one year old, The deaths for which age is not stated are included in the "Age at the time of death, all ages" category but not distributed among age groups. All of the data is possessed and cleaned through R studio, a programming language for statistical computing and graphics.
 
 ### Measurement
 Using Poisson and negative binomial distributions as link functions, the data were fitted and the results of the two distributions were compared to select the best link function. The Poisson distribution is a simple way to predict events, but it expects the average number of events to be the same as the amount they vary, which isn't always true for actual data.The negative binomial distribution is a more flexible version that can deal with differences between the average number of events and how much they vary by including an extra detail, the dispersion parameter, that helps when the data is more spread out than the average.
@@ -62,9 +58,9 @@ First, the original dataset file of "Leading causes of death", named "1310039401
 In order to understand the data more intuitively, data cleansing is necessary. The other reason is that the original data file contains many irrelevant instructions and variables. The first step is to delete them directly and to rename “Leading causes of death” as “cause”. And then, replace the original classification method based on the cause of death with year, named “year”. Next, add two variables, "ranking" represents the ranking of the number of people for this cause in the same year, and "years" represents the number of times this cause appears from 2000 to 2022. Finally, sort them with "year" as the main one, and then sort them in the reverse order of "total_death" according to this cause in this year, that is, in the forward order of "ranking".
 
 ### Preview
-
-```{r echo = FALSE, fig.cap = "Modeling the most prevalent cause of deaths in Canada, 2000-2022"}
+```{r echo = FALSE}
 #| label: tbl-1
+#| tbl-cap: "Modeling the most prevalent cause of deaths in Canada, 2000-2022"
 cleaned_data <- read.csv("cleaned_data")
 cleaned_data <- cleaned_data[, -1]
 
@@ -88,9 +84,9 @@ cleaned_data |>
 Preview the processed clean data first, which is very helpful for understanding the overall data. @tbl-1 shows the top-ten causes in 2022, from which some rough findings can be obtained. We previously predicted that the number of occurrences of most causes of death would be 23, which means they would occur every year, but the actual situation is that except for COVID-19, the rest are 23, and COVID-19 is 3, because COVID-19 suddenly appeared in 2020. Does this mean that Canada’s medical and health system has not undergone significant changes? The same diseases are still plaguing the people in 23 years.
 
 ### Trend
-
-```{r echo = FALSE, fig.cap = "Annual number of deaths for the top-five causes in 2022, since 2001, for Canada"}
+```{r echo = FALSE}
 #| label: fig-1
+#| fig-cap: "Annual number of deaths for the top-five causes in 2022, since 2001, for Canada"
 # Select top five causes
 top_five <-
   cleaned_data |>
@@ -119,9 +115,9 @@ cleaned_data |>
 
 \newpage
 # Result
-
-```{r echo = FALSE, fig.cap = "Summary statistics of the number of yearly deaths, by cause, in Canada"}
+```{r echo = FALSE}
 #| label: tbl-2
+#| tbl-cap: "Summary statistics of the number of yearly deaths, by cause, in Canada"
 death <- data.frame(total <- as.numeric(cleaned_data$total_deaths))
 
 summary_table <- death %>%
@@ -143,21 +139,17 @@ kable(summary_table, table.attr = "style='width:100%;'") %>%
 @tbl-2 tells us the summary statistics of the number of yearly deaths by cause in Canada. The number of observations in the data is 115. The minimum value in the data set is 8521 and the maximum value is 82822.SD refers to Stands for Standard Deviation, a measure of how spread out numbers are in the set is 25849.99. Var refers to variance, indicating how much the numbers vary from the average, and it's 668221779.
 
 ## Model fitting
-The Poisson distribution describes the probability distribution of the number of events that occur within a fixed unit of time or space. Its probability mass function is:
-$$P(X = k) = \frac{e^{-\lambda}\lambda^k}{k!}$$
-The Poisson distribution is usually more concise and convenient, can fit a wider range of models and is easier to interpret. Nevertheless, Poisson distribution assumes that the mean($\lambda$) and variance($\lambda$) are equal.
+The Poisson distribution describes the probability distribution of the number of events that occur within a fixed unit of time or space. Its probability mass function is: $$P(X = k) = \frac{e^{-\lambda}\lambda^k}{k!}$$ The Poisson distribution is usually more concise and convenient, can fit a wider range of models and is easier to interpret. Nevertheless, Poisson distribution assumes that the mean($\lambda$) and variance($\lambda$) are equal.
 
-Compared with the Poisson distribution, the calculation and derivation of the negative binomial distribution are more complicated, and the parameter estimation of the model may be more difficult, especially when the amount of data is small or the model does not fit well. Its probability mass function is:
-$$P(X = k) = \binom{k+r-1}{k}(1-p)^{k}p^r$$
-However, the negative binomial distribution is a generalization of the Poisson distribution that allows for differences between mean($\frac{r(1-p)}{p}$) and variance($\frac{r(1-p)}{p^2}$). It does this by processing an extra parameter: the dispersion parameter($r$), which is the number of successes that need to be observed before a number($k$) of observed failures.
+Compared with the Poisson distribution, the calculation and derivation of the negative binomial distribution are more complicated, and the parameter estimation of the model may be more difficult, especially when the amount of data is small or the model does not fit well. Its probability mass function is: $$P(X = k) = \binom{k+r-1}{k}(1-p)^{k}p^r$$ However, the negative binomial distribution is a generalization of the Poisson distribution that allows for differences between mean($\frac{r(1-p)}{p}$) and variance($\frac{r(1-p)}{p^2}$). It does this by processing an extra parameter: the dispersion parameter($r$), which is the number of successes that need to be observed before a number($k$) of observed failures.
 
 When means and variances are not equal, especially when overdispersion occurs, using the negative binomial distribution instead of the Poisson distribution can provide a more accurate statistical model that better fits the data. For the sake of rigor, this study still completely compares the two.
 
 ## Estimate
 Implementing Poisson and negative binomial regression, simultaneously. Model the most prevalent cause of deaths. According to the @tbl-3, the estimates are similar, so it is necessary to use a posterior predictive check in addition.
-
-```{r  echo=FALSE, warning = FALSE, fig.cap = "Modeling the most prevalent cause of deaths in Canada, 2001-2020"}
+```{r  echo=FALSE, warning = FALSE}
 #| label: tbl-3
+#| tbl-cap: "Modeling the most prevalent cause of deaths in Canada, 2001-2020"
 cause_of_death_canada_poisson <-
   stan_glm(
     total_deaths ~ cause,
@@ -182,35 +174,34 @@ modelsummary(
 )
 ```
 
-
 ## Posterior predictive check
-@fig-2 indicate that negative binomial approach is a better choice for this circumstance. But it’s too early to draw conclusions from the figures alone.
-
+@fig-2, @fig-3 indicate that negative binomial approach is a better choice for this circumstance. But it’s too early to draw conclusions from the figures alone.
 ```{r echo = FALSE}
 #| label: fig-2
 #| warning: false
-#| fig-cap: "Fitting Two models"
-#| fig-subcap: ["(a) Poisson model","(b) Negative binomial model"]
-#| layout-ncol: 2
+#| fig-cap: "(a) Poisson model"
 pp_check(cause_of_death_canada_poisson) +
-  theme(legend.position = "bottom") +
-  theme_classic()
-
-pp_check(cause_of_death_canada_neg_binomial) +
   theme(legend.position = "bottom") +
   theme_classic()
 ```
 
-There are many observations with a pareto_k > 0.7. Large Pareto's K means the model posterior would be too different if one data point is being removed. This suggests that the model is not capturing the data well (i.e. some data points with high K are highly influential and not being considered by the model). 
+```{r echo = FALSE}
+#| label: fig-3
+#| warning: false
+#| fig-cap: "(b) Negative binomial model"
+pp_check(cause_of_death_canada_neg_binomial) +
+  theme(legend.position = "bottom") +
+  theme_classic()
+```
+There are many observations with a pareto_k > 0.7. Large Pareto's K means the model posterior would be too different if one data point is being removed. This suggests that the model is not capturing the data well (i.e. some data points with high K are highly influential and not being considered by the model).
 
 ## Resampling
-Following this logic, LOOCV(Leave-one-out cross-validation) will not be trustworthy anymore if most of the Pareto's K is higher than 0.7, although it can usually get a more accurate prediction. With this many problematic observations, K-fold cross-validation with argument 'K=10' to perform 10-fold cross-validation, that the data used for each training becomes closer to the entire data set, and the deviation decreases. 
+Following this logic, LOOCV(Leave-one-out cross-validation) will not be trustworthy anymore if most of the Pareto's K is higher than 0.7, although it can usually get a more accurate prediction. With this many problematic observations, K-fold cross-validation with argument 'K=10' to perform 10-fold cross-validation, that the data used for each training becomes closer to the entire data set, and the deviation decreases.
 
-It is less computationally intensive, and more efficient when processing large data sets.
-So K-fold will be a more suitable resampling method in this study.
-
-```{r echo = FALSE, message = FALSE, warning = FALSE, fig.cap = "K-fold cross-validation summary"}
+It is less computationally intensive, and more efficient when processing large data sets. So K-fold will be a more suitable resampling method in this study.
+```{r echo = FALSE, message = FALSE, warning = FALSE}
 #| label: tbl-4
+#| tbl-cap: "K-fold cross-validation summary"
 poisson <- kfold(cause_of_death_canada_poisson, k = 10, cores = 1)
 neg_binomial <- kfold(cause_of_death_canada_neg_binomial, k = 10, cores = 1)
 
@@ -221,7 +212,6 @@ kable(as.data.frame(comparison_results), booktabs = TRUE) %>%
   kable_styling(font_size = 8, full_width = F)%>%
   row_spec(0, bold = T)
 ```
-
 The information provided in the @tbl-4 allows us to compare the relative performance of the negative binomial model and the Poisson model. The result mainly relies on the “elpd_diff” and “elpd_kfold” values of the two models, namely "expected log pointwise predictive density difference" and "ELPD for K-fold cross-validation". The higher these two values are, the better the model's predictive performance is.
 
 From table, we can see that the negative binomial model has higher “elpd_diff” and “elpd_kfold” values and also has a smaller standard deviation. This shows that the negative binomial model has better predictive performance than the Poisson model in cross-validation. Therefore, we can infer that the negative binomial model is a better fit for the overall number of deaths by cause, in Canada, from 2000 to 2022.
